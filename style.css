@@ -1033,25 +1033,20 @@ a:focus {
       z-index: 0;
       margin-left: 0px;
       margin-top: 10px;
-      font-family: 'HelveticaNeueLTStd-Lt';
   }
 
   #actividad .content .cke_contents ol.bck-ol-2 li:before,
   #actividad .content .texto_curso ol.bck-ol-2 li:before,
   #actividad .popover-content ol.bck-ol-2 li:before,
   #actividad .content .workspace ul li ol.bck-ol-2 li:before {
-      content: counter(bck-li-counter)". ";
-      width: 27px;
-      height: 27px;
-      position: absolute;
-      font-size: 2.2rem;
-      font-weight: bold;
-      color: #EF2C3E;
-      background: none;
-      margin-left: -35px;
-      margin-right: 0px;
-      text-align: right;
-      font-family: 'HelveticaNeueLTStd-Lt';	
+      content: counter(bck-li-counter)"";
+          position: absolute;
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: #da203e;
+    margin-left: -20px;
+    margin-right: 0px;
+    text-align: right;
   }
 
   /*LISTA 3 = AZUL*/
