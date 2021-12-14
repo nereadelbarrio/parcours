@@ -1031,6 +1031,8 @@ a:focus {
     position: relative;
     z-index: 0;
     margin-left: 10px;
+          color: #2D6590;
+    font-weight: 600;
   }
 
   #actividad .content .cke_contents .bck-ol-2 li:before,
@@ -1040,13 +1042,13 @@ a:focus {
     content: counter(bck-li-counter, lower-alpha)".";
     position: absolute;
     text-align: center;
-    color: #EF2C3E;
+    color: #da203e;
     line-height: normal;
-    margin-left: -20px;
+    margin-left: -26px;
     line-height: unset;
     font-weight: bold;
-    margin-top: 0px;
-    font-family: 'HelveticaNeueLTStd-Lt';
+    margin-top: -1.5px;
+    font-size: 2.5rem;
   }
 
   /*LISTA 3 = AZUL*/
