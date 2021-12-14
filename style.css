@@ -1745,6 +1745,10 @@ border-color: #009FA5;
   border: 3px solid #034f80c7;
 }
 
+#actividad .workspace.clasificar .clasificar_conjuntos .group-name-top {
+  padding-top: 10px;
+}
+
 /*Redacción*/
 .form-control:focus, .form-control:focus-within {
   border-top-color: #0F99A8;
