@@ -1737,12 +1737,12 @@ border-color: #009FA5;
 
 /*Classify activities*/
 #actividad .workspace.clasificar .clasificar_lista .classify-item {
-  border-color: #0F99A8;
+  border-color: #034F80;
   padding: 6px;
 }
 
 #actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
-  border: 3px solid #0f99a8d4;
+  border: 3px solid #034f80c7;
 }
 
 /*Redacción*/
