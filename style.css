@@ -701,7 +701,7 @@ a:focus {
     color: #2D6590;
     font-size: 1.4rem;
     border: 2px solid #da203e;
-    padding: 7px 3px 7px 3px;
+    padding: 7px 3px 5px 3px;
     border-radius: 0 4px 4px 0;
     margin-left: -5px;
     display: inline;
@@ -1033,6 +1033,8 @@ a:focus {
       z-index: 0;
       margin-left: 0px;
       margin-top: 10px;
+      color: #2D6590;
+    font-weight: 600;
   }
 
   #actividad .content .cke_contents ol.bck-ol-2 li:before,
@@ -1041,12 +1043,13 @@ a:focus {
   #actividad .content .workspace ul li ol.bck-ol-2 li:before {
       content: counter(bck-li-counter)"";
           position: absolute;
-    font-size: 2.4rem;
+    font-size: 2.6rem;
     font-weight: bold;
     color: #da203e;
     margin-left: -20px;
     margin-right: 0px;
     text-align: right;
+    margin-top: 6px;
   }
 
   /*LISTA 3 = AZUL*/
