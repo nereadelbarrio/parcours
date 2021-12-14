@@ -593,7 +593,7 @@ TOPE-LÀ*/
 #actividad .player.video, 
 #help-panel-content .player, 
 #remote-alert-modal-rich .player {
-  height: 26px !important;
+  height: 32px !important;
   width: 31px;
   display: inline-block;
   background-repeat: no-repeat;
@@ -610,7 +610,7 @@ background-color: #00800000;
 
 body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     background-color: #DA203E;
-    border-radius: 5px;
+    border-radius: 5px 0 0 5px;
 }
 
 #actividad .content img.player, #actividad .player.audio, #actividad .player.video, 
