@@ -570,7 +570,7 @@ TOPE-LÀ*/
 
 /**/
 
-/*Icono audioRojo*/
+/*Icono audio*/
 #actividad .player.audio {
   background-image: url(images/icono_audio.png);
   -webkit-background-size: 100% 100%;
@@ -593,8 +593,8 @@ TOPE-LÀ*/
 #actividad .player.video, 
 #help-panel-content .player, 
 #remote-alert-modal-rich .player {
-  height: 30px !important;
-  width: 35px;
+  height: 26px !important;
+  width: 31px;
   display: inline-block;
   background-repeat: no-repeat;
   border-radius: 0;
@@ -602,7 +602,8 @@ TOPE-LÀ*/
   padding: 0px;
 }
 
-#actividad .player.audio, #actividad .player.video, #help-panel-content .player, 
+#actividad .player.audio, #actividad .player.video, 
+#help-panel-content .player, 
 #remote-alert-modal-rich .player {
 background-color: #00800000; 
   }
@@ -694,10 +695,18 @@ a:focus {
 
 /*---- ÉNFASIS ----*/
 
-/*ÉNFASIS 1 - Tipo Billy*/
+/*ÉNFASIS 1*/
 .bck-enfasis-1 {
-    font-family: 'Billy';
-    font-weight: 300;
+    font-weight: 600;
+    color: #2D6590;
+    font-size: 1.4rem;
+    border: 2px solid #da203e;
+    padding: 7px 3px 7px 3px;
+    border-radius: 0 4px 4px 0;
+    margin-left: -5px;
+    display: inline;
+    position: relative;
+    top: -6px;
 }
 
 /*ÉNFASIS 2*/
