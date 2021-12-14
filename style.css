@@ -746,38 +746,13 @@ a:focus {
     font-weight: 600;
 }
 
-/*Énfasis 8 - 11 Boc.Izq*/ 
-.bck-enfasis-8:before,
-.bck-enfasis-9:before,
-.bck-enfasis-10:before,
-.bck-enfasis-11:before {
-  content: "";
-  position: absolute;
-  width: 0px;
-  height: 0px;
-  border-top: 15px solid #0F99A8;
-  border-right: 20px solid transparent;
-  border-left: 0px solid transparent;
-  bottom: -15px;
-  margin: 0 0 0 40px;
-}
-.bck-enfasis-8,
-.bck-enfasis-9,
-.bck-enfasis-10,
-.bck-enfasis-11 {
-  border-bottom: 2px solid #0F99A8;
-  padding-bottom: 3px;
-  font-family: 'Billy';
-  color: #0F99A8;
-  display: inline-block;
-  position: relative;
-}
-  .bck-enfasis-8:before {
-    border-top-color: #0F99A8;
-  }
+/*Énfasis 8*/ 
   .bck-enfasis-8 {
-    border-bottom-color: #0F99A8;
+      font-size: 22px;
+    font-weight: bold;
+    color: #034F80;
   }
+
   /*Énfasis 9 - Boc.Izq.Roj*/ 
   .bck-enfasis-9:before {
     border-top-color: #EF2C3F;
