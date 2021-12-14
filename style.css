@@ -552,8 +552,11 @@ TOPE-LÀ*/
   /*rellenar espacios*/
   .slide_main input, 
   .slide_main .img-input-container{
-    border-bottom-color: #2790a1;
-      background-color: #7db9c361;
+    background-color: #f6feff61;
+    border: 2px dotted #231F20;
+    border-top: none;
+    border-left: none;
+    border-right: none;
   }
 
   /*Redacción*/
@@ -1953,7 +1956,7 @@ border-color: #009FA5;
 }
 
 .slide_main input:focus {
-  border-color: #11b2ef;
+  border-color: #2D6590;
 }
 
 /*--------------------------------------------------TAGS--------------------------------------------*/
