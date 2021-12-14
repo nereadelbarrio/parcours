@@ -637,18 +637,22 @@ a:active,
 a:focus {
 	color: #E61931;
 }
-/*Títulos Intro, Intro Rojo, Intro verde, Intro morado*/
-  .bck-title-intro,
-  .bck-title-2,
-  .bck-title-3,
-  .bck-title-4 {
-    font-family: 'Billy';
-    font-weight: bold;
-    font-size: 4.5rem;
-  }
-  .bck-title-intro {
-    color: #009BA7;
-  }
+/*Títulos*/
+.bck-title-1 {
+    color: #fff;
+    background-color: #B63F81;
+    width: fit-content;
+    padding: 5px 21px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+        font-size: 2.6rem;
+    font-weight: 600;
+}
+
+.bck-title-1:before {
+    display: none;
+}
+
   .bck-title-2 {
     color: #E61931;
   }
@@ -1772,7 +1776,7 @@ border-color: #009FA5;
 
 /*Relacionar palabras*/
 #actividad .workspace.matching .opcion {
-  border: 2px solid #0F99A8;
+  border: 2px solid #2d6590;
 }
 #actividad .workspace.matching .opcion:hover {
   background: #e0f7ff9e;
@@ -1857,18 +1861,18 @@ border-color: #009FA5;
 
 .btn-danger, .btn-danger[disabled] {
   color: #fff;
-  background-color: #009ba7;
+  background-color: #316892;
   border-color: transparent;
 }
 
 .btn-danger:hover {
   color: #fff;
-  background-color: #0b9dcf;
+  background-color: #5fa0d1;
   border-color: transparent;
 }
 
 .btn-primary, .btn-primary.disabled, .btn-primary.disabled:focus {
-  background-color: #009ba7;
+  background-color: #2d6590;
 }
 
 .btn-primary[disabled], .btn-primary[disabled]:focus {
@@ -1884,7 +1888,7 @@ border-color: #009FA5;
 }
 
 #actividad .content .review .attemps span {
-  background-color: #009ba7;
+  background-color: #2d6590;
 }
 
 
