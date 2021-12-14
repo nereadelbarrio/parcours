@@ -663,29 +663,8 @@ a:focus {
     color: #20409B;
   }
 
-/*T. Azul, T.Verde, T.Rojo, T.Morado*/
-  .bck-title-1,
-  .bck-title-5,
-  .bck-title-6,
-  .bck-title-7 {
-    font-family: 'Billy';
-    font-size: 2.8rem;
-    position: relative;
-    text-align: left;
-    font-weight: bold;
-  }
-  .bck-title-1 {
-    color: #009BA7;
-  }
-  .bck-title-5 {
-    color: #E61931;
-  }
-  .bck-title-6 {
-    color: #007149;
-  }
-  .bck-title-7 {
-    color: #20409B;
-  }
+
+
 
   /*título negro*/
   .bck-title-12 {
