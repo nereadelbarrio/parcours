@@ -714,9 +714,9 @@ a:focus {
 
 /*ÉNFASIS 2*/
 .bck-enfasis-2 {
-    font-size: 22px;
+  font-size: 22px;
     font-weight: bold;
-    font-family: 'HelveticaNeueLTStd-Lt';
+    color: #da203e;
 }
 
   /*Énfasis 3*/
