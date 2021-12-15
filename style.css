@@ -1083,10 +1083,40 @@ a:focus {
 /*BOXES*/
 
   /*CAJA 1*/
+.bck-box.bck-box-2 {
+
+}
+
+.bck-box.bck-box-2>.bck-title {
+    
+}
+
+.bck-box.bck-box-2>.bck-content {
+    background-color: #ffffff;
+    border: 1px solid #ec6f59;
+    border-radius: 0;
+    padding: 8px 18px 8px 19px;
+    width: auto;
+}
+
+.bck-box.bck-box-2:after {
+    background-image: url(images/icono_caja_02.png);
+    content: " ";
+    position: absolute;
+    left: 10%;
+    margin-top: -5px;
+    z-index: 100;
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+}
+
+
 .bck-box.bck-box-1 {
     margin-top: 15px;
     border: none;
-    background: transparent
+    background: transparent;
 }
 
 .bck-box.bck-box-1>.bck-title {
@@ -1095,7 +1125,7 @@ a:focus {
 
 .bck-box.bck-box-1>.bck-content {
     background-color: #ffffff;
-    border: 3px solid #a1ccda;
+    border: 1px solid #ec6f59;
     border-radius: 0;
     padding: 8px 18px 8px 19px;
     width: auto;
@@ -1105,24 +1135,15 @@ a:focus {
 background-image: url(images/icono_caja_01.png);
     content: " ";
     position: absolute;
-    right: -24px;
-    top: 19px;
+    left: 10%;
+    margin-top: -5px;
     z-index: 100;
-    padding: 13px;
+    padding: 10px;
     background-repeat: no-repeat;
     background-size: contain;
-    width: 0;
-    height: 0;
-    background: none;
-    border-right: 0;
-    transform: none;
-    transform-origin: 0;
+    display: inline-block;
 }
 
-.bck-box.bck-box-1:before {
-
-display: none;
-}
 
   /*Caja 2 = blanca */
   .bck-box.bck-box-2 {
