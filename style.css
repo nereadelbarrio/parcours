@@ -1113,7 +1113,20 @@ a:focus {
     background-size: contain;
     display: inline-block;
     height: 34%;
-    background: none;
+}
+
+.bck-box.bck-box-1:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: -14px;
+    z-index: -5;
+    width: 0;
+    height: 100%;
+    background: transparent;
+    border-right: 0;
+    transform: none;
+    transform-origin: 0;
 }
 
 .bck-box.bck-box-1:before {
