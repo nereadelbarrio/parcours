@@ -1614,6 +1614,8 @@ border: 2px solid #D4092D;
 
   /*icono libro*/
   .icon-libro:before {
+        background-image: url(images/icono_leer.png);
+    content: "";
   width: 33px;
     height: 33px;
     vertical-align: top;
