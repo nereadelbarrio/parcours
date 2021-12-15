@@ -1,4 +1,4 @@
-/*JS TOPE-LÀ*/ 
+/*JS PARCOURS*/ 
 (function (blink) {
 	'use strict';
 
@@ -14,15 +14,15 @@
 		ckEditorStyles: {
 			name: 'parcours',
 			styles: [
-				{ name: 'Título 01', element: 'h2', attributes: { 'class': 'bck-title-1'} },
-				{ name: 'Título 02', element: 'h2', attributes: { 'class': 'bck-title-2'} },
-				{ name: 'Título 03', element: 'h2', attributes: { 'class': 'bck-title-3'} },
-				{ name: 'Título 04', element: 'h2', attributes: { 'class': 'bck-title-4'} },
-				{ name: 'Título 05', element: 'h2', attributes: { 'class': 'bck-title-1'} },
-				{ name: 'Título 06', element: 'h2', attributes: { 'class': 'bck-title-5'} },
-				{ name: 'Título 07', element: 'h2', attributes: { 'class': 'bck-title-6'} },
-				{ name: 'Título 08', element: 'h2', attributes: { 'class': 'bck-title-7'} },
-				{ name: 'Título 09', element: 'h2', attributes: { 'class': 'bck-title-12'} },
+				{ name: 'Título 01', element: 'h2', attributes: { 'class': 'bck-title bck-title-1'} },
+				{ name: 'Título 02', element: 'h2', attributes: { 'class': 'bck-title bck-title-2'} },
+				{ name: 'Título 03', element: 'h2', attributes: { 'class': 'bck-title bck-title-3'} },
+				{ name: 'Título 04', element: 'h2', attributes: { 'class': 'bck-title bck-title-4'} },
+				{ name: 'Título 05', element: 'h2', attributes: { 'class': 'bck-title bck-title-1'} },
+				{ name: 'Título 06', element: 'h2', attributes: { 'class': 'bck-title bck-title-5'} },
+				{ name: 'Título 07', element: 'h2', attributes: { 'class': 'bck-title bck-title-6'} },
+				{ name: 'Título 08', element: 'h2', attributes: { 'class': 'bck-title bck-title-7'} },
+				{ name: 'Título 09', element: 'h2', attributes: { 'class': 'bck-title bck-title-12'} },
 				
 				{ name: 'Énfasis 01', element: 'span', attributes: { 'class': 'bck-enfasis-1'} },
 				{ name: 'Énfasis 02', element: 'span', attributes: { 'class': 'bck-enfasis-2'} },
@@ -40,21 +40,21 @@
 				{ name: 'Énfasis 14', element: 'span', attributes: { 'class': 'bck-enfasis-14'} },
 				{ name: 'Énfasis 15', element: 'span', attributes: { 'class': 'bck-enfasis-15'} },
 
-				{ name: 'L.Des. Azul', element: 'ul', attributes: { 'class': 'bck-ul-1'} },
-				{ name: 'L.Des. Roja', element: 'ul', attributes: { 'class': 'bck-ul-2'} },
-				{ name: 'L.Des. Verde', element: 'ul', attributes: { 'class': 'bck-ul-3'} },
-				{ name: 'L.Des. Morada', element: 'ul', attributes: { 'class': 'bck-ul-4'} },
-				{ name: 'L.Des. Blanca', element: 'ul', attributes: { 'class': 'bck-ul-5'} },
+				{ name: 'L.Des. Azul', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-1'} },
+				{ name: 'L.Des. Roja', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-2'} },
+				{ name: 'L.Des. Verde', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-3'} },
+				{ name: 'L.Des. Morada', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-4'} },
+				{ name: 'L.Des. Blanca', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-5'} },
 
-				{ name: 'Lista ordenada 01', element: 'ol', attributes: { 'class': 'bck-ol-1' } },
-				{ name: 'Lista ordenada 02', element: 'ol', attributes: { 'class': 'bck-ol-2' } },
-				{ name: 'Lista ordenada 03', element: 'ol', attributes: { 'class': 'bck-ol-3' } },
-				{ name: 'Lista ordenada 04', element: 'ol', attributes: { 'class': 'bck-ol-4' } },
+				{ name: 'Lista ordenada 01', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-1' } },
+				{ name: 'Lista ordenada 02', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-2' } },
+				{ name: 'Lista ordenada 03', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-3' } },
+				{ name: 'Lista ordenada 04', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-4' } },
 										
-				{ name: 'Caja 01', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-1' } },
-				{ name: 'Caja 02', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-2' } },
-				{ name: 'Caja 03', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-3' } },
-				{ name: 'Caja 04', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-4' } },
+				{ name: 'Caja 01', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-1' } },
+				{ name: 'Caja 02', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-2' } },
+				{ name: 'Caja 03', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-3' } },
+				{ name: 'Caja 04', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-4' } },
 				{ name: 'Caja Verde', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-5' } },
 				{ name: 'Caja Blanca Rectangulo', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-6' } },
 				{ name: 'Caja Círculo azul', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box-7' } },
