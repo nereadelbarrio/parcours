@@ -499,8 +499,9 @@ TOPE-LÀ*/
   #actividad .workspace.chooseblanks .inline-answer a {
     display: inline-block;
     vertical-align: initial;
-    border: 2px solid #00bdff;
-    color: #414141;
+        border: 2px solid #2d6590;
+    background-color: #fff !important;
+    color: #2d6590 !important;
     padding: 0px 6px;
     margin: 2px;
     -webkit-border-radius: 13px;
@@ -581,9 +582,10 @@ TOPE-LÀ*/
   -o-background-size: 100%;
   background-size: contain;
   background-position: 0;
-  background-color: #9a999e00;
   width: 21px;
   margin-right: 10px;
+      background-color: #DA203E !important;
+    border-radius: 5px 0 0 5px !important;
 }
 
 #actividad .player.audio:hover {
@@ -600,24 +602,29 @@ TOPE-LÀ*/
   width: 31px;
   display: inline-block;
   background-repeat: no-repeat;
-  border-radius: 0;
   margin-right: 5px;
   padding: 0px;
+  background-color: #DA203E;
+    border-radius: 5px 0 0 5px;
 }
 
-#actividad .player.audio, #actividad .player.video, 
+#actividad .player.video, 
 #help-panel-content .player, 
 #remote-alert-modal-rich .player {
 background-color: #00800000; 
   }
 
-body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
+/*body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     background-color: #DA203E;
     border-radius: 5px 0 0 5px;
-}
+    color: inherit;
+}*/
 
-#actividad .content img.player, #actividad .player.audio, #actividad .player.video, 
-#help-panel-content .player, #remote-alert-modal-rich .player:hover {
+#actividad .content img.player, 
+#actividad .player.audio, 
+#actividad .player.video, 
+#help-panel-content .player, 
+#remote-alert-modal-rich .player:hover {
 -webkit-box-shadow: 2px 2px 2px undefinedpx #A8A3A2;
   box-shadow: 2px 2px 2px undefinedpx #A8A3A2;
 }
