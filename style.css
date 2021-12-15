@@ -500,8 +500,8 @@ TOPE-LÀ*/
     display: inline-block;
     vertical-align: initial;
         border: 2px solid #2d6590;
-    background-color: #fff !important;
-    color: #2d6590 !important;
+    background-color: #fff;
+    color: #2d6590;
     padding: 0px 6px;
     margin: 2px;
     -webkit-border-radius: 13px;
@@ -510,12 +510,12 @@ TOPE-LÀ*/
   }
 
   #actividad .workspace.chooseblanks .inline-answer a:hover {
-    background-color: #d2eff7;
+    background-color: #2d659038;
     color: #414141;
   }
 
   #actividad .workspace.chooseblanks .inline-answer a.selected:not(.respuesta_ok):not(.respuesta_ko):not(.solucion) {
-    background-color: #0597ca;
+    background-color: #2d6590;
     color: #fff;
     font-weight: 400;
   }
@@ -614,11 +614,9 @@ TOPE-LÀ*/
 background-color: #00800000; 
   }
 
-/*body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
-    background-color: #DA203E;
-    border-radius: 5px 0 0 5px;
+body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     color: inherit;
-}*/
+}
 
 #actividad .content img.player, 
 #actividad .player.audio, 
