@@ -511,7 +511,7 @@ TOPE-LÀ*/
 
   #actividad .workspace.chooseblanks .inline-answer a:hover {
     background-color: #2d659038;
-    color: #414141;
+    color: #2d6590;
   }
 
   #actividad .workspace.chooseblanks .inline-answer a.selected:not(.respuesta_ok):not(.respuesta_ko):not(.solucion) {
@@ -524,8 +524,6 @@ TOPE-LÀ*/
     color: #3ac62a;
     border-color: #3ac62a;
     background-color: #ffffff;
-    padding: 6px;
-    font-size: 2.5rem;
   }
 
   #actividad .workspace.chooseblanks .solucion {
@@ -1051,8 +1049,8 @@ a:focus {
     right: 5px;
 }
 
-  /*LISTA 4  LetraMinusAzul*/
-  #actividad .content .cke_contents .bck-ol-4,
+  /*LISTA 4*/
+ #actividad .content .cke_contents .bck-ol-4,
   #actividad .content .texto_curso .bck-ol-4,
   #actividad .content .workspace ul li .bck-ol-4,
   #actividad .popover-content .bck-ol-4 {
@@ -1071,24 +1069,24 @@ a:focus {
     position: relative;
     z-index: 0;
     margin-left: 10px;
+    font-weight: 500;
   }
 
-  #actividad .content .cke_contents .bck-ol-4 li:before,
-  #actividad .content .texto_curso ol.bck-ol-4 li:before,
-  #actividad .popover-content ol.bck-ol-4 li:before,
-  #actividad .content .workspace ul li ol.bck-ol-4 li:before {
-    content: counter(bck-li-counter, lower-alpha)".";
+#actividad .content .cke_contents .bck-ol-4 li:before, 
+#actividad .content .texto_curso ol.bck-ol-4 li:before, 
+#actividad .popover-content ol.bck-ol-4 li:before, 
+#actividad .content .workspace ul li ol.bck-ol-4 li:before {
+    color: #034F80;
+    font-size: 2.5rem;
+    content: counter(bck-li-counter,lower-alpha) ".";
     position: absolute;
-    text-align: center;
-    color: #009BA7;
-    line-height: normal;
-    margin-left: -20px;
-    line-height: unset;
-    font-weight: bold;
-    margin-top: 0px;
-    font-family: 'HelveticaNeueLTStd-Lt';
-  }
-
+    text-align: right;
+    left: -20px;
+    font-family: inherit;
+    margin: -1px 0 0 -9px;
+    width: inherit;
+    font-weight: 500;
+}
   
 /**/
 
