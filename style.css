@@ -757,14 +757,14 @@ a:focus {
 
   /*Énfasis 9*/ 
   .bck-enfasis-9 {
-    border-bottom-color:#EF2C3F;
-    color: #EF2C3F;
+    font-weight: bold;
+    color: #00ADEE;
   }
 
   /*Énfasis 10*/ 
   .bck-enfasis-10 {
-    border-bottom-color:#007149;
-    color: #007149;
+    font-weight: bold;
+    color: #F173AC;
   }
   /*Énfasis 11*/ 
   .bck-enfasis-11 {
