@@ -1113,6 +1113,11 @@ background-image: url(images/icono_caja_01.png);
     background-size: contain;
 }
 
+.bck-box.bck-box-1:before {
+
+display: none;
+}
+
   /*Caja 2 = blanca */
   .bck-box.bck-box-2 {
       margin-top: 15px;
