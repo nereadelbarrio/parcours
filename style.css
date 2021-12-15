@@ -1614,6 +1614,13 @@ border: 2px solid #D4092D;
 
   /*icono libro*/
   .icon-libro:before {
+        background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-position: center center;
+    display: inline-block;
         background-image: url(images/icono_leer.png);
     content: "";
   width: 33px;
