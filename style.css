@@ -1562,6 +1562,17 @@ border: 2px solid #D4092D;
 /**/
 
 /*-------------- Iconos---------------------*/
+.cke_contents .icon:before, 
+.item-container.icon:before {
+  content: "";
+  background-repeat: no-repeat;
+  -webkit-background-size: auto 100%;
+     -moz-background-size: auto 100%;
+       -o-background-size: auto 100%;
+          background-size: auto 100%;
+  background-position: center center;
+  display: inline-block;
+}
 
   /*icono Hablar*/
   .icon-hablar:before {
@@ -1603,44 +1614,16 @@ border: 2px solid #D4092D;
 
   /*icono libro*/
   .icon-libro:before {
-    background-image: url(images/icono_leer.png);
-    content: "";
-    background-repeat: no-repeat;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
-    background-position: center center;
-    display: inline-block;
-    vertical-align: middle;
-    height: 19px;
-    width: 17px;
-    margin-right: 9px;
-    position: relative;
-    top: -1px;
-  }
-  /*icono cuidado*/
-  .icon-cuidado:before {
-    background-image: url(images/icono_cuidado.png);
-    content: "";
-    background-repeat: no-repeat;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
-    background-position: center center;
-    display: inline-block;
-    vertical-align: middle;
-      height: 32px;
-      width: 27px;
-      margin-right: 9px;
-      position: relative;
-      top: 1px;
+  width: 33px;
+    height: 33px;
+    vertical-align: top;
+    margin-right: 5px;
+    margin-top: -8px;
   }
 
-  /*icono lápizRojo*/
+  /*icono lápiz*/
   .icon-lapizrojo:before {
-    background-image: url(images/icono_lapizRojo.png);
+    background-image: url(images/icono_lapiz.png);
     content: "";
     background-repeat: no-repeat;
     -webkit-background-size: contain;
@@ -1655,22 +1638,6 @@ border: 2px solid #D4092D;
     margin-right: 9px;
   }
 
-  /*icono Colores*/
-  .icon-colores:before {
-    background-image: url(images/icono_colores.png);
-    content: "";
-    background-repeat: no-repeat;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
-    background-position: center center;
-    display: inline-block;
-    vertical-align: middle;
-    height: 20px;
-    width: 20px;
-    margin-right: 9px;
-  }
 
   /*--- ESTOS DOS ICONOS SE USARON EN LA DEMO. NO BORRAR ---*/
       /*icono libroazul*/
