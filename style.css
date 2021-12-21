@@ -805,13 +805,13 @@ padding: 10px 50px;
   color: #B63F81;
 }
 
-  /*Énfasis 15 - Boc.Der.Morado*/ 
-  .bck-enfasis-15:before {
-    border-top-color: #20409B;
-  }
+  /*Énfasis 15*/ 
   .bck-enfasis-15 {
-    border-bottom-color:#20409B;
-    color: #20409B;
+padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #0071B7;
+    margin-top: 2px;
   }
 /*------*/
 
@@ -1891,11 +1891,11 @@ border-color: #009FA5;
 
 /*Rellenar espacios*/
 .fillblanks-draggable-wrapper .response {
-  border: 2px solid #009ba7;
+  border: 2px solid #316892;
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   border-radius: 0px;
-  background-color: #cee4e8;
+  background-color: #fff;
 }
 
 /*Relacionar palabras*/
@@ -2093,6 +2093,12 @@ border-color: #009FA5;
 
 .slide_main input:focus {
   border-color: #2D6590;
+}
+
+.slide_main input:focus, 
+.slide_main .form-control:focus {
+border-color: #2d6590;
+box-shadow: 0px 1px 1px rgb(0 0 0 / 8%) inset, 0px 0px 8px rgb(45 101 144 / 41%);
 }
 
 /*--------------------------------------------------TAGS--------------------------------------------*/
