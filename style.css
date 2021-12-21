@@ -2102,8 +2102,16 @@ border-color: #009FA5;
 }
 
 /*--------------------------------------------------TAGS--------------------------------------------*/
-/*--------------------------------------------------TAGS--------------------------------------------*/
+/*--------------------------------------------------ACTIVITYTAGS--------------------------------------------*/
+/*activitytag_lexique*/
+.activitytag_lexique #actividad .player.audio {
+  background-color: #879AA3 !important;
+}
 
+.activitytag_lexique .bck-enfasis-1 {
+  color: #879aa3;
+    border: 2px solid #879aa3;
+}
 
 /****/
 
