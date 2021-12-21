@@ -65,7 +65,7 @@
 				{ name: 'Caja 05', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-5' } },
 				{ name: 'Caja 06', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-6' } },
 				{ name: 'Caja 07', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-7' } },
-				{ name: 'Caja Bordes amarillos', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-8' } },
+				{ name: 'Caja 08', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-8' } },
 				{ name: 'Caja Azul', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-9' } },
 				{ name: 'Caja Diag.Izq', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-10' } },
 				{ name: 'Caja Diag.Der', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-11' } },
