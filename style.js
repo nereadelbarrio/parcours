@@ -57,6 +57,7 @@
 				{ name: 'Lista ordenada 08', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-8' } },
 				{ name: 'Lista ordenada 09', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-9' } },
 				{ name: 'Lista ordenada 10', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-10' } },
+				{ name: 'Lista ordenada 11', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-11' } },
 										
 				{ name: 'Caja 01', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-1' } },
 				{ name: 'Caja 02', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-2' } },
