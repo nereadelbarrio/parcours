@@ -1162,7 +1162,7 @@ border: 2px solid #D4092D;
   content: counter(bck-li-counter);
     color: #ffffff;
     background: #B54E7F;
-    padding: 0px 2px 2px 2px;
+    padding: 3px ​2px 3px 2px;
     border-radius: 100%;
     position: absolute;
     margin-top: -3px;
@@ -1180,6 +1180,48 @@ border: 2px solid #D4092D;
     border: inherit;
     line-height: inherit;
 }  
+
+
+/*LISTA 7*/
+  #actividad .content .cke_contents .bck-ol-7,
+  #actividad .content .texto_curso .bck-ol-7,
+  #actividad .content .workspace ul li .bck-ol-7,
+  #actividad .popover-content .bck-ol-7 {
+    list-style-type: none;
+    counter-reset: bck-li-counter;
+    margin-left: 20px;
+  }
+
+  #actividad .content .cke_contents .bck-ol-7 li,
+  #actividad .content .cke_contents .bck-ol-7 li,
+  #actividad .content .texto_curso .bck-ol-7 li,
+  #actividad .popover-content .bck-ol-7 li,
+  #actividad .content .workspace ul li .bck-ol-7 li {
+    counter-increment: bck-li-counter;
+    padding-left: 0px;
+    position: relative;
+    z-index: 0;
+    margin-left: 10px;
+          color: #39464e;
+    font-weight: 600;
+  }
+
+#actividad .content .cke_contents .bck-ol-7 li:before, 
+#actividad .content .texto_curso ol.bck-ol-7 li:before, 
+#actividad .popover-content ol.bck-ol-7 li:before, 
+#actividad .content .workspace ul li ol.bck-ol-7 li:before {
+    color: #879AA3;
+    font-size: 2.5rem;
+    content: counter(bck-li-counter,lower-alpha) ".";
+    position: absolute;
+    font-weight: 700;
+    text-align: right;
+    left: -20px;
+    font-family: inherit;
+    font-family: 'Proxima Nova Rg';
+    margin: -1px 0 0 -9px;
+    width: inherit;
+}
 /**/
 
 /*BOXES*/
