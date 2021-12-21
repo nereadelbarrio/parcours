@@ -776,7 +776,6 @@ a:focus {
   }
   /*Énfasis 11*/ 
   .bck-enfasis-11 {
-    border-bottom-color:#20409B;
     color: #20409B;
   }
 
@@ -801,16 +800,11 @@ padding: 10px 50px;
     clip-path: polygon(0% 13%,100% 2%,79% 100%,12% 100%);
 }
 
+  /*Énfasis 14*/ 
+.bck-enfasis-14 {
+  color: #B63F81;
+}
 
-
-  /*Énfasis 14 - Boc.Der.Verde*/ 
-  .bck-enfasis-14:before {
-    border-top-color: #007149;
-  }
-  .bck-enfasis-14 {
-    border-bottom-color:#007149;
-    color: #007149;
-  }
   /*Énfasis 15 - Boc.Der.Morado*/ 
   .bck-enfasis-15:before {
     border-top-color: #20409B;
