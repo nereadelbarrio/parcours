@@ -1507,32 +1507,33 @@ border: 2px solid #D4092D;
   margin-bottom: 0px;
   }
 
-  /*CAJA 7 - Círculo azul*/
+  /*CAJA 7*/
   .bck-box.bck-box-7 {
-    background: #5CC5E5;
-    padding: 34px;
-    border: 6px solid white;
-    -webkit-box-shadow: 4px 3px 11px #00000042;
-    -moz-box-shadow: 4px 3px 11px #00000042;
-    box-shadow: 4px 3px 11px #00000042;
-    min-height: 180px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 261px;
-    -webkit-border-radius: 32% 46% 33% 53% / 44% 44% 53% 56%;
-    -moz-border-radius: 32% 46% 33% 53% / 44% 44% 53% 56%;
-    border-radius: 32% 46% 33% 53% / 44% 44% 53% 56%;
+    margin-top: 15px;
+    border: 4px solid #923E76;
+    -webkit-border-radius: 37px;
+    -moz-border-radius: 37px;
+    border-radius: 37px;
+    background: #ffffff;
+    padding: 10px;
+    width: fit-content;
+    width: -moz-fit-content;
+    position: relative;
+    margin-left: auto;
+    margin-right: 0;
   }
-  .bck-box-7 .bck-title {
-    color: #E61931;
-    font-family: 'Billy';
-    font-weight: bold;
+
+  .bck-box.bck-box-7 .bck-title {
+    color: inherit;
   }
-  .bck-box-7 .bck-title p {
-    font-family: 'Billy';
-    font-weight: bold;
+
+  .bck-box.bck-box-7 .bck-content {
+  color: inherit;
+    padding: 5px;
+  }
+
+    .bck-box.bck-box-7 .bck-content ol {
+  margin-bottom: 0px;
   }
 
   /*CAJA 8 - Bordes amarillos*/
