@@ -193,9 +193,9 @@ TOPE-LÀ*/
 
   #indice .units ul li.active:not(.disabled),
   #indice .units ul li:focus:not(.disabled) {
-    background: #e619310d;
-    border: dashed 3px #E61931;	
+  background: #E9E7AE;
     padding: 5px 0;
+    border-left: 40px #d4092d solid;
   }
   #indice .units ul li {
     -webkit-border-radius: 0px;
