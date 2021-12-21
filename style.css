@@ -198,23 +198,27 @@ TOPE-LÀ*/
     padding: 5px 0;
   }
   #indice .units ul li {
-    -webkit-border-radius: 4px;
-      -moz-border-radius: 4px;
-            border-radius: 4px;
-    -webkit-box-shadow: 1px 1px 1px 1px #C2C2C2;
-    box-shadow: 1px 1px 1px 1px #C2C2C2;
-    background: #E61931;
+    -webkit-border-radius: 0px;
+      -moz-border-radius: 0px;
+            border-radius: 0px;
+    background: #C4C403;
     -webkit-transition: all 0.2s ease;
     -moz-transition: all 0.2s ease;
     transition: all 0.2s ease;
+    border-left: 15px solid #D4092D;
   }
 
   #indice .units ul li a .title{
-    color: #ffff;
+    color: #034F80;
+    font-size: 17px;
+  }
+
+  #indice .units ul li:not(.add) a .title {
+    margin-left: 0px;
   }
 
   #indice .unit-content .header .title {
-      color: #E61931;
+      color: #d4092d;
       background: #ffffff85;
       font-size: 2.7rem;
       font-weight: bold;
@@ -224,7 +228,6 @@ TOPE-LÀ*/
       margin: 5px 140px 20px 8px;
       z-index: 1;
       display: block;
-      font-family: 'HelveticaNeueLTStd-Lt';
       display: -webkit-box;
       -webkit-line-clamp: 3;
       -webkit-box-orient: vertical;
@@ -236,17 +239,22 @@ TOPE-LÀ*/
   #indice .units ul li.hover:not(.disabled),
   body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
   #indice .units ul li:hover:not(.disabled) {
-    background: #e619310d;
-    border: dashed 3px #E61931;
-    padding: 5px 0
+  background: #E9E7AE;
+    padding: 5px 0;
+    border-left: 40px #d4092d solid;
   }
 
   body:not(.isTablet) #indice .units ul li:not(.disabled) a .title:hover{
-    color: #E61931;
+    color: #d4092d;
   }
 
   #indice .actividades .btn-primary {
-    background: #E61931;
+    background: #d4092d;
+    border-radius: 0;
+  }
+
+  #indice .unit-content .actividades {
+    border-top: 0;
   }
 /*-----------*/
 
@@ -1957,423 +1965,7 @@ border-color: #009FA5;
 
 /*--------------------------------------------------TAGS--------------------------------------------*/
 /*--------------------------------------------------TAGS--------------------------------------------*/
-/*-----------------------------------Tag Cahier1--------------------------------------------------*/
-.coursetag_parcours_cahier #actividad .player.audio,
-.coursetag_parcours_cahier .icon-audio:before {
-  background-image: url(images/icono_audioazul.png);
-  width: 21px;
-  margin-right: 10px;
-}
-/*icono libro*/
-.coursetag_parcours_cahier .icon-libro:before {
-  background-image: url(images/icono_libroazul.png);
-}
-/*icono lápiz*/
-.coursetag_parcours_cahier .icon-lapizrojo:before {
-  background-image: url(images/icono_lapizAzul.png);
-}
 
-/*TOC Y MENÚ LATERAL*/
-body:not(.isTablet).coursetag_parcours_cahier #indice .units ul li:not(.disabled) a:hover .title, 
-body:not(.isTablet).coursetag_parcours_cahier #indice .units ul li.active:not(.disabled) a .title{
-  color: #009ba7;
-}
-
-body:not(.isTablet).coursetag_parcours_cahier #indice .units ul li.active:not(.disabled) a .title {
-    color: #009ba7;
-}
-
-.coursetag_parcours_cahier #indice .units ul li.active:not(.disabled),
-.coursetag_parcours_cahier #indice .units ul li:focus:not(.disabled) {
-  background: #D9EBEE;
-  border: dashed 3px #009BA7;	
-}
-.coursetag_parcours_cahier #indice .units ul li {
-  background: #009BA7;
-}
-.coursetag_parcours_cahier #indice .units ul li a .title{
-    color: #ffff;
-  }
-.coursetag_parcours_cahier #indice .unit-content .header .title {
-    color: #009ba7;
-}
-
-.coursetag_parcours_cahier #indice .units ul li.hover:not(.disabled),
-body:not(.isTablet).coursetag_parcours_cahier #indice .units ul li:hover:not(.disabled),
-.coursetag_parcours_cahier #indice .units ul li:hover:not(.disabled) {
-  background: #D9EBEE;
-  border: dashed 3px #009BA7;
-}
-
-body:not(.isTablet).coursetag_parcours_cahier #indice .units ul li:not(.disabled) a .title:hover{
-  color: #009ba7;
-}
-
-.coursetag_parcours_cahier #indice .actividades .btn-primary {
-  background: #009ba7;
-}
-
-/*INDICE LATERAL*/
-.coursetag_parcours_cahier #book-index #indice .units ul li {
-    border-bottom: dashed 3px #009ba7;
-}
-
-body:not(.isTablet).coursetag_parcours_cahier #book-index #indice .units ul li:not(.disabled) a:hover,
-.coursetag_parcours_cahier #book-index #indice .units ul li.active a {
-  background: #009ba7;
-}
-
-.coursetag_parcours_cahier #book-index .col-indice{
-  background: #99d7dc;
-}
-
-.coursetag_parcours_cahier #book-index .col-main {
-      background: #009ba7;
-}
-
-.coursetag_parcours_cahier #indice .unit-content .actividades .item .nota {
-      background-color: #428bca;
-}
-
-.coursetag_parcours_cahier #book-index #indice .unit-content a:active,
-.coursetag_parcours_cahier #indice .units ul li a:active,
-.coursetag_parcours_cahier #book-index #indice .unit-content a:focus,
-.coursetag_parcours_cahier #indice .units ul li a:focus {
-  color: #fff;
-}
-.coursetag_parcours_cahier #book-index #indice .unit-content a:hover,
-.coursetag_parcours_cahier #indice .units ul li a:hover{
-  color: #009BA7;
-}
-
-body:not(.isTablet).coursetag_parcours_cahier #book-index #indice .unit-content .actividades .item:active,
-.coursetag_parcours_cahier #book-index #indice .unit-content .actividades .item.active,
-.coursetag_parcours_cahier #book-index #indice .unit-content .actividades .item.current {
-  border-bottom: 2px solid #00767f;
-}
-
-/*CAMBIO DE COLOR CK-EDITOR*/
-.coursetag_parcours_cahier .bck-box.bck-box-2 .bck-content {
-  color: #009ba7;
-}
-
-.coursetag_parcours_cahier .bck-box-5 .bck-title {
-  color: #009ba7;
-}
-
-.coursetag_parcours_cahier .bck-box-6 .bck-title {
-  color: #009ba7;
-}
-
-.coursetag_parcours_cahier .bck-box-7 .bck-title {
-  color: #009ba7;
-}
-
-.coursetag_parcours_cahier .bck-box-8 .bck-title {
-  color: #009ba7;
-}
-
-.coursetag_parcours_cahier .bck-box-9 .bck-title {
-  color: #009ba7;
-}
-.coursetag_parcours_cahier .bck-box-12 .bck-title {
-  color: #009ba7;
-}
-
-.coursetag_parcours_cahier .bck-box-13 .bck-title {
-  color: #009ba7;
-
-}
-.coursetag_parcours_cahier .bck-box-14 .bck-title {
-  color: #009ba7;
-}
-
-/*Enlace*/
-.coursetag_parcours_cahier a:hover,
-.coursetag_parcours_cahier a:active,
-.coursetag_parcours_cahier a:focus {
-	color: #009ba7;
-}
-/*-----------------------------------Tag verde--------------------------------------------------*/
-/*icono Hablar*/
-.coursetag_parcours_verde .icon-hablar:before {
-  background-image: url(images/icono_hablar_verde.png);
-}
-/*icono audio*/
-.coursetag_parcours_verde #actividad .player.audio,
-.coursetag_parcours_verde .icon-audio:before {
-  background-image: url(images/icono_audioverde.png);
-}
-/*icono libro*/
-.coursetag_parcours_verde .icon-libro:before {
-  background-image: url(images/icono_libroverde.png);
-}
-/*icono lápiz*/
-.coursetag_parcours_verde .icon-lapizrojo:before {
-  	background-image: url(images/icono_lapizverde.png);
-}
-/*TAG TOC Y DESPLEGABLE*/
-body:not(.isTablet).coursetag_parcours_verde #indice .units ul li:not(.disabled) a:hover .title, 
-body:not(.isTablet).coursetag_parcours_verde #indice .units ul li.active:not(.disabled) a .title{
-  color: #007149;
-}
-
-body:not(.isTablet).coursetag_parcours_verde #indice .units ul li.active:not(.disabled) a .title {
-    color: #007149;
-}
-
-.coursetag_parcours_verde #indice .units ul li.active:not(.disabled),
-.coursetag_parcours_verde #indice .units ul li:focus:not(.disabled) {
-  background: #00714914;
-  border: dashed 3px #007149;	
-}
-.coursetag_parcours_verde #indice .units ul li {
-  background: #007149;
-}
-.coursetag_parcours_verde #indice .units ul li a .title{
-    color: #ffff;
-  }
-.coursetag_parcours_verde #indice .unit-content .header .title {
-    color: #007149;
-}
-
-.coursetag_parcours_verde #indice .units ul li.hover:not(.disabled),
-body:not(.isTablet).coursetag_parcours_verde #indice .units ul li:hover:not(.disabled),
-.coursetag_parcours_verde #indice .units ul li:hover:not(.disabled) {
-  background: #00714914;
-  border: dashed 3px #007149;
-}
-
-body:not(.isTablet).coursetag_parcours_verde #indice .units ul li:not(.disabled) a .title:hover{
-  color: #007149;
-}
-
-.coursetag_parcours_verde #indice .actividades .btn-primary {
-  background: #007149;
-}
-
-/*INDICE LATERAL*/
-.coursetag_parcours_verde #book-index #indice .units ul li {
-    border-bottom: dashed 3px #007149;
-}
-
-body:not(.isTablet).coursetag_parcours_verde #book-index #indice .units ul li:not(.disabled) a:hover,
-.coursetag_parcours_verde #book-index #indice .units ul li.active a {
-  background: #007149;
-}
-
-.coursetag_parcours_verde #book-index .col-indice{
-  background: #37b186;
-}
-
-.coursetag_parcours_verde #book-index .col-main {
-      background: #007149;
-}
-
-.coursetag_parcours_verde #indice .unit-content .actividades .item .nota {
-      background-color: #007149;
-}
-
-.coursetag_parcours_verde #book-index #indice .unit-content a:active,
-.coursetag_parcours_verde #indice .units ul li a:active,
-.coursetag_parcours_verde #book-index #indice .unit-content a:focus,
-.coursetag_parcours_verde #indice .units ul li a:focus {
-  color: #fff;
-}
-.coursetag_parcours_verde #book-index #indice .unit-content a:hover,
-.coursetag_parcours_verde #indice .units ul li a:hover{
-  color: #007149;
-}
-
-body:not(.isTablet).coursetag_parcours_verde #book-index #indice .unit-content .actividades .item:active,
-.coursetag_parcours_verde #book-index #indice .unit-content .actividades .item.active,
-.coursetag_parcours_verde #book-index #indice .unit-content .actividades .item.current {
-  border-bottom: 2px solid #007149;
-}
-/*CAMBIO DE COLOR CK-EDITOR*/
-.coursetag_parcours_verde .bck-box.bck-box-2 .bck-content {
-  color: #007149;
-}
-
-.coursetag_parcours_verde .bck-box-5 .bck-title {
-  color: #007149;
-}
-
-.coursetag_parcours_verde .bck-box-6 .bck-title {
-  color: #007149;
-}
-
-.coursetag_parcours_verde .bck-box-7 .bck-title {
-  color: #007149;
-}
-
-.coursetag_parcours_verde .bck-box-8 .bck-title {
-  color: #007149;
-}
-
-.coursetag_parcours_verde .bck-box-9 .bck-title {
-  color: #007149;
-}
-.coursetag_parcours_verde .bck-box-12 .bck-title {
-  color: #007149;
-}
-
-.coursetag_parcours_verde .bck-box-13 .bck-title {
-  color: #007149;
-
-}
-.coursetag_parcours_verde .bck-box-14 .bck-title {
-  color: #007149;
-}
-
-
-/*Enlace*/
-.coursetag_parcours_verde a:hover,
-.coursetag_parcours_verde a:active,
-.coursetag_parcours_verde a:focus {
-	color: #007149;
-}
-/*-----------------------------------Tag MORADO--------------------------------------------------*/
-/*icono Hablar*/
-.coursetag_parcours_morado .icon-hablar:before {
-  background-image: url(images/icono_hablar_morado.png);
-}
-/*icono audio*/
-.coursetag_parcours_morado #actividad .player.audio,
-.coursetag_parcours_morado .icon-audio:before {
-  background-image: url(images/icono_audiomorado.png);
-}
-/*icono libro*/
-.coursetag_parcours_morado .icon-libro:before {
-  background-image: url(images/icono_libromorado.png);
-}
-/*icono lápiz*/
-.coursetag_parcours_morado .icon-lapizrojo:before {
-  	background-image: url(images/icono_lapizmorado.png);
-}
-
-/*TOC Y MENÚ LATERAL*/
-body:not(.isTablet).coursetag_parcours_morado #indice .units ul li:not(.disabled) a:hover .title, 
-body:not(.isTablet).coursetag_parcours_morado #indice .units ul li.active:not(.disabled) a .title{
-  color: #20409B;
-}
-
-body:not(.isTablet).coursetag_parcours_morado #indice .units ul li.active:not(.disabled) a .title {
-    color: #20409B;
-}
-
-.coursetag_parcours_morado #indice .units ul li.active:not(.disabled),
-.coursetag_parcours_morado #indice .units ul li:focus:not(.disabled) {
-  background: #20409b21;
-  border: dashed 3px #20409B;	
-}
-.coursetag_parcours_morado #indice .units ul li {
-  background: #20409B;
-}
-.coursetag_parcours_morado #indice .units ul li a .title{
-    color: #ffff;
-  }
-.coursetag_parcours_morado #indice .unit-content .header .title {
-    color: #20409B;
-}
-
-.coursetag_parcours_morado #indice .units ul li.hover:not(.disabled),
-body:not(.isTablet).coursetag_parcours_morado #indice .units ul li:hover:not(.disabled),
-.coursetag_parcours_morado #indice .units ul li:hover:not(.disabled) {
-  background: #20409b21;
-  border: dashed 3px #20409B;
-}
-
-body:not(.isTablet).coursetag_parcours_morado #indice .units ul li:not(.disabled) a .title:hover{
-  color: #20409B;
-}
-
-.coursetag_parcours_morado #indice .actividades .btn-primary {
-  background: #20409B;
-}
-
-/*INDICE LATERAL*/
-.coursetag_parcours_morado #book-index #indice .units ul li {
-    border-bottom: dashed 3px #20409B;
-}
-
-body:not(.isTablet).coursetag_parcours_morado #book-index #indice .units ul li:not(.disabled) a:hover,
-.coursetag_parcours_morado #book-index #indice .units ul li.active a {
-  background: #20409B;
-}
-
-.coursetag_parcours_morado #book-index .col-indice{
-  background: #859ee5;
-}
-
-.coursetag_parcours_morado #book-index .col-main {
-      background: #20409B;
-}
-
-.coursetag_parcours_morado #indice .unit-content .actividades .item .nota {
-      background-color: #20409B;
-}
-
-.coursetag_parcours_morado #book-index #indice .unit-content a:active,
-.coursetag_parcours_morado #indice .units ul li a:active,
-.coursetag_parcours_morado #book-index #indice .unit-content a:focus,
-.coursetag_parcours_morado #indice .units ul li a:focus {
-  color: #fff;
-}
-.coursetag_parcours_morado #book-index #indice .unit-content a:hover,
-.coursetag_parcours_morado #indice .units ul li a:hover{
-  color: #20409B;
-}
-
-body:not(.isTablet).coursetag_parcours_morado #book-index #indice .unit-content .actividades .item:active,
-.coursetag_parcours_morado #book-index #indice .unit-content .actividades .item.active,
-.coursetag_parcours_morado #book-index #indice .unit-content .actividades .item.current {
-  border-bottom: 2px solid #20409B;
-}
-/*CAMBIO DE COLOR CK-EDITOR*/
-.coursetag_parcours_morado .bck-box.bck-box-2 .bck-content {
-  color: #20409B;
-}
-
-.coursetag_parcours_morado .bck-box-5 .bck-title {
-  color: #20409B;
-}
-
-.coursetag_parcours_morado .bck-box-6 .bck-title {
-  color: #20409B;
-}
-
-.coursetag_parcours_morado .bck-box-7 .bck-title {
-  color: #20409B;
-}
-
-.coursetag_parcours_morado .bck-box-8 .bck-title {
-  color: #20409B;
-}
-
-.coursetag_parcours_morado .bck-box-9 .bck-title {
-  color: #20409B;
-}
-.coursetag_parcours_morado .bck-box-12 .bck-title {
-  color: #20409B;
-}
-
-.coursetag_parcours_morado .bck-box-13 .bck-title {
-  color: #20409B;
-
-}
-.coursetag_parcours_morado .bck-box-14 .bck-title {
-  color: #20409B;
-}
-
-
-
-/*Enlace*/
-.coursetag_parcours_morado a:hover,
-.coursetag_parcours_morado a:active,
-.coursetag_parcours_morado a:focus {
-	color: #20409B;
-}
 
 /****/
 
