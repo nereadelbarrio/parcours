@@ -649,6 +649,10 @@ a:focus {
 	color: #E61931;
 }
 /*Títulos*/
+.bck-title {
+  border: none;
+}
+
 .bck-title-1 {
     color: #fff;
     background-color: #B63F81;
@@ -664,9 +668,16 @@ a:focus {
     display: none;
 }
 
-  .bck-title-2 {
-    color: #E61931;
-  }
+.bck-title-2 {
+    color: #fff;
+    background-color: #D77A3F;
+    width: fit-content;
+    padding: 5px 21px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+        font-size: 2.6rem;
+    font-weight: 600;
+}
   .bck-title-3 {
     color: #007149;
   }
@@ -1243,6 +1254,56 @@ border: 2px solid #D4092D;
     margin: -1px 0 0 -9px;
     width: inherit;
 }
+
+ /*LISTA 9*/
+ #actividad .content .cke_contents .bck-ol-9,
+  #actividad .content .texto_curso .bck-ol-9,
+  #actividad .content .workspace ul li .bck-ol-9,
+  #actividad .popover-content .bck-ol-9 {
+  list-style-type: none;
+    counter-reset: bck-li-counter;
+  }
+
+  #actividad .content .cke_contents .bck-ol-9 li,
+  #actividad .content .cke_contents .bck-ol-9 li,
+  #actividad .content .texto_curso .bck-ol-9 li,
+  #actividad .popover-content .bck-ol-9 li,
+  #actividad .content .workspace ul li .bck-ol-9 li {
+    counter-increment: bck-li-counter;
+    padding-left: 0px;
+    position: relative;
+    z-index: 0;
+    margin-left: 2px;
+    margin-top: 10px;
+    color: #39464E;
+    font-weight: 600;
+  }
+
+#actividad .content .cke_contents .bck-ol-9 li:before, 
+#actividad .content .texto_curso ol.bck-ol-9 li:before, 
+#actividad .popover-content ol.bck-ol-9 li:before, 
+#actividad .content .workspace ul li ol.bck-ol-9 li:before {
+  content: counter(bck-li-counter);
+    color: #ffffff;
+    background: #D77A3F;
+    padding: 3px 2px;
+    border-radius: 100%;
+    position: absolute;
+    margin-top: -3px;
+    left: -37px;
+    width: 33px;
+    text-align: center;
+    height: auto;
+    font-size: 2.1rem;
+    text-shadow: none;
+    transform: none;
+    margin-right: -10px;
+    font-weight: bold;
+    font-family: 'Proxima Nova Rg';
+    box-shadow: inherit;
+    border: inherit;
+    line-height: inherit;
+}  
 
 /**/
 
