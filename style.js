@@ -41,11 +41,11 @@
 				{ name: 'Énfasis 15', element: 'span', attributes: { 'class': 'bck-enfasis-15'} },
 				{ name: 'Énfasis 16', element: 'span', attributes: { 'class': 'bck-enfasis-16'} },
 
-				{ name: 'L.Des. Azul', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-1'} },
-				{ name: 'L.Des. Roja', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-2'} },
-				{ name: 'L.Des. Verde', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-3'} },
-				{ name: 'L.Des. Morada', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-4'} },
-				{ name: 'L.Des. Blanca', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-5'} },
+				{ name: 'Lista desordenada 01', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-1'} },
+				{ name: 'Lista desordenada 02', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-2'} },
+				{ name: 'Lista desordenada 03', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-3'} },
+				{ name: 'Lista desordenada 04', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-4'} },
+				{ name: 'Lista desordenada 05', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-5'} },
 
 				{ name: 'Lista ordenada 01', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-1' } },
 				{ name: 'Lista ordenada 02', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-2' } },
