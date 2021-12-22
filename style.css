@@ -1768,6 +1768,22 @@ border: 2px solid #D4092D;
     left: -10px;
     top: -14px;
 }
+
+.bck-box.bck-box99>.bck-title:before {
+    content: "";
+    position: absolute;
+    LEFT: -25px;
+    bottom: 8px;
+    z-index: -5;
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: -3px solid transparent;
+    border-top: 13px solid #fbba00;
+    transform: skewY(
+10deg);
+}
+
   .bck-box.bck-box-9>.bck-title p {
     font-family: 'Billy';
     font-weight: bold;
