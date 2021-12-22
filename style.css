@@ -912,21 +912,6 @@ padding: 5px;
     padding-left: 40px
 }
 
-#actividad .workspace.matching .box ul li:before,
-#actividad .workspace.multiple-choice .js-item ul li:before,
-#actividad .workspace.ordenar .js-rank-item ul li:before,
-.cke_contents ul li:before,
-.classify-item ul li:before,
-.preview ul li:before,
-.texto_curso ul li:before,
-.workspace ul li ul li:before {
-    content: "";
-    height: 6px;
-    width: 6px;
-    background-color: #333;
-    color: #333;
-    border-radius: 50%
-}
 
 #actividad .content .texto_curso ul li:before,
 #actividad .content .workspace ul li ul li:before {
