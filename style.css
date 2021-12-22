@@ -264,26 +264,25 @@ TOPE-LÀ*/
 
   #book-index #indice .units ul li {
     border: 0;
-    border-bottom: dashed 3px #E61931;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
   }
   body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover,
   #book-index #indice .units ul li.active a {
-    background: #E61931;
+    background: #d4092d;
   }
 
   #book-index .col-indice{
-    background: #dc9999;
+    background: #e17689;
   }
 
   #book-index .col-main {
-        background: #E61931;
+        background: #d4092d;
   }
 
   #indice .unit-content .actividades .item .nota {
-        background-color: #E61931;
+        background-color: #d4092d;
   }
 
   #book-index #indice .unit-content a:active,
@@ -306,7 +305,7 @@ TOPE-LÀ*/
   #book-index #indice .unit-content .actividades .item.active,
   #book-index #indice .unit-content .actividades .item.current {
     background: transparent;
-    border-bottom: 2px solid #E61931;
+    border-bottom: 2px solid #C4C403;
     padding-left: 10px;
   }
 
@@ -317,6 +316,12 @@ TOPE-LÀ*/
       font-weight: bold;
       margin-top: 4px;
       color: #ffff;
+  }
+
+  body:not(.isTablet) #book-index #indice .unit-content .actividades .item:hover, 
+  #book-index #indice .unit-content .actividades .item.active, 
+  #book-index #indice .unit-content .actividades .item.current {
+    background: #e17689;
   }
 
   #book-index #indice .units ul li a .title{
@@ -1100,7 +1105,7 @@ padding: 5px;
     font-size: 2.5rem;
     content: counter(bck-li-counter,lower-alpha) ".";
     font-family: 'Proxima Nova Rg';
-    position: absolute;
+    position: relative;
     text-align: right;
     left: -20px;
     font-family: inherit;
