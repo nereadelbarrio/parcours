@@ -1742,7 +1742,7 @@ border: 2px solid #D4092D;
   }
 
 
-  /*CAJA 9 - CAJA Azul sombra*/
+  /*CAJA 9*/
   .bck-box.bck-box-9 {
     padding: 8px 15px 8px 8px;
     background-color: #fff;
@@ -1752,15 +1752,32 @@ border: 2px solid #D4092D;
     -webkit-box-shadow: 2px 4px 3px #00000024;
     box-shadow: 2px 4px 3px #00000024;
   }
-  .bck-box.bck-box-9>.bck-title {
+.bck-box.bck-box-9>.bck-title {
     color: #E61931;
-    font-family: 'Billy';
+    font-family: 'Proxima Nova Rg';
     font-weight: bold;
-  }
+    background-color: #034F80;
+    color: #fff;
+    padding: 15px 15px 15px 100px;
+    width: 103.1%;
+    font-size: 2.5rem;
+    border-radius: 6px 6px 0 0;
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    left: -10px;
+    top: -14px;
+}
   .bck-box.bck-box-9>.bck-title p {
     font-family: 'Billy';
     font-weight: bold;
   }
+
+  .bck-box.bck-box-9>.bck-content {
+    background: #fff;
+    padding: 40px 20px 20px 20px;
+    border-radius: 10px;
+}
 
 
   /* CAJA 10 - CAJA DIAG.IZQ*/
