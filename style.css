@@ -862,6 +862,42 @@ padding: 5px;
 .bck-enfasis-16 {
   color: #0093AC;
 }
+
+  /*énfasis 17*/
+  .bck-enfasis-17 {
+      padding: 8px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #23B9CD;
+    margin-top: 2px;
+  }
+
+    /*énfasis 18*/
+  .bck-enfasis-18 {
+      padding: 8px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #AECA05;
+    margin-top: 2px;
+  }
+
+    /*énfasis 19*/
+  .bck-enfasis-19 {
+      padding: 8px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #F7A600;
+    margin-top: 2px;
+  }
+
+    /*énfasis 20*/
+  .bck-enfasis-20 {
+      padding: 8px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #7099AC;
+    margin-top: 2px;
+  }
 /*------*/
 
 
