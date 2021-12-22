@@ -1806,37 +1806,39 @@ border: 2px solid #D4092D;
 .bck-box-10>.bck-title {
     border: 0;
     color: #fff;
-    text-align: center;
+    text-align: left;
     font-size: 1.8rem;
-    background: #00a6ba;
-    border-top-left-radius: 15px;
+    background: #0092AD;
+    border-radius: 15px 15px 0 0;
     padding: 10px 20px 0;
     font-weight: 700;
 }
 .bck-box.bck-box-10>.bck-content {
     padding: 20px 27px;
-    font-size: 1.7rem;
-    background: #eff8f9;
+    background: #DFEFF4;
 }
-  /* CAJA 11 - CAJA DIAG.DER*/
-  .bck-box-11:before {
-    content: "";
-    position: absolute;
-    width: 0px;
-    height: 0px;
-    border-top: 15px solid #D9EBEE;
-    border-right: 0px solid transparent;
-    border-left: 20px solid transparent;
-    right: 0;
-    margin: 0 40px 0px 0px;
-    bottom: -15px;
-  }
-  .bck-box-11 {
-  background: #D9EBEE;
-  padding: 8px 15px 8px 8px;
-  border-radius: 25px;
-  position: relative;
-  }  
+  /* CAJA 11*/
+  .bck-box.bck-box-11 {
+    background: transparent;
+    border: none;
+    text-align: left;
+    border-radius: 0;
+}
+
+.bck-box-11>.bck-title {
+    border: 0;
+    color: #fff;
+    text-align: left;
+    font-size: 1.8rem;
+    background: #DF7A26;
+    border-radius: 15px 15px 0 0;
+    padding: 10px 20px 0;
+    font-weight: 700;
+}
+.bck-box.bck-box-11>.bck-content {
+    padding: 20px 27px;
+    background: #FAECDF;
+}
 
   /* CAJA 12 - Bocadillo INFO*/
   .bck-box-12 {
