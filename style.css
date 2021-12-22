@@ -1769,7 +1769,7 @@ border: 2px solid #D4092D;
     top: -14px;
 }
 
-.bck-box.bck-box9>.bck-title:before {
+.bck-box.bck-box-9>.bck-title:before {
     content: "";
     position: absolute;
     LEFT: -25px;
