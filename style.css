@@ -1795,25 +1795,29 @@ border: 2px solid #D4092D;
 }
 
 
-  /* CAJA 10 - CAJA DIAG.IZQ*/
-  .bck-box-10:before {
-    content: "";
-    position: absolute;
-    width: 0px;
-    height: 0px;
-    border-top: 15px solid #dcdcde;
-    border-right: 20px solid transparent;
-    border-left: 0px solid transparent;
-    bottom: -15px;
-    margin: 0 0 0 40px;
-  }
-  .bck-box-10 {
-  background: #DCDCDE;
-  padding: 8px 15px 8px 8px;
-  border-radius: 25px;
-  position: relative;
-  }
+  /* CAJA 10*/
+.bck-box.bck-box-10 {
+    background: transparent;
+    border: none;
+    text-align: left;
+    border-radius: 0;
+}
 
+.bck-box-10>.bck-title {
+    border: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 1.8rem;
+    background: #00a6ba;
+    border-top-left-radius: 15px;
+    padding: 10px 20px 0;
+    font-weight: 700;
+}
+.bck-box.bck-box-10>.bck-content {
+    padding: 20px 27px;
+    font-size: 1.7rem;
+    background: #eff8f9;
+}
   /* CAJA 11 - CAJA DIAG.DER*/
   .bck-box-11:before {
     content: "";
