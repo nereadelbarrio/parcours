@@ -2091,6 +2091,25 @@ border: 2px solid #D4092D;
   }
 
 
+  /*icono lupa*/
+  .icon-lupa:before {
+    background-image: url(images/icono_lupa.PNG);
+    content: "";
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-position: center center;
+    display: inline-block;
+    vertical-align: middle;
+    height: 19px;
+    width: 17px;
+    margin-right: 9px;
+  }
+
+
+
   /*--- ESTOS DOS ICONOS SE USARON EN LA DEMO. NO BORRAR ---*/
       /*icono libroazul*/
       .icon-libroazul:before {
