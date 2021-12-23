@@ -84,6 +84,7 @@
 				{ name: 'Icono Hablar', element: 'span', attributes: { 'class': 'icon icon-hablar' } },
 				{ name: 'Icono Audio', element: 'span', attributes: { 'class': 'icon icon-audio' } },
 				{ name: 'Icono Libro', element: 'span', attributes: { 'class': 'icon icon-libro' } },
+				{ name: 'Icono Lupa', element: 'span', attributes: { 'class': 'icon icon-lupa' } },
 				{ name: 'Icono Lápiz', element: 'span', attributes: { 'class': 'icon icon-lapiz' } }
 
 			]
