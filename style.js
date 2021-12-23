@@ -45,6 +45,10 @@
 				{ name: 'Énfasis 19', element: 'span', attributes: { 'class': 'bck-enfasis-19'} },
 				{ name: 'Énfasis 20', element: 'span', attributes: { 'class': 'bck-enfasis-20'} },
 				{ name: 'Énfasis 21', element: 'span', attributes: { 'class': 'bck-enfasis-21'} },
+				{ name: 'Énfasis 22', element: 'span', attributes: { 'class': 'bck-enfasis-22'} },
+				{ name: 'Énfasis 23', element: 'span', attributes: { 'class': 'bck-enfasis-23'} },
+				{ name: 'Énfasis 24', element: 'span', attributes: { 'class': 'bck-enfasis-24'} },
+				{ name: 'Énfasis 25', element: 'span', attributes: { 'class': 'bck-enfasis-25'} },
 
 				{ name: 'Lista desordenada 01', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-1'} },
 				{ name: 'Lista desordenada 02', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-2'} },
