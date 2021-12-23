@@ -908,6 +908,41 @@ padding: 5px;
     background-color: #6B66A5;
     margin-top: 2px;
   }
+
+        /*énfasis 22*/
+  .bck-enfasis-22 {
+      padding: 8px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #923E76;
+    margin-top: 2px;
+  }
+
+        /*énfasis 23*/
+  .bck-enfasis-23 {
+      padding: 8px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #008253;
+    margin-top: 2px;
+  }
+
+        /*énfasis 24*/
+  .bck-enfasis-24 {
+      padding: 8px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #EC7A30;
+    margin-top: 2px;
+  }
+        /*énfasis 25*/
+  .bck-enfasis-25 {
+      padding: 8px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #949290;
+    margin-top: 2px;
+  }
 /*------*/
 
 
