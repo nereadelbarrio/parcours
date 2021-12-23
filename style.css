@@ -2048,8 +2048,8 @@ border: 2px solid #D4092D;
     background-position: center center;
     display: inline-block;
     vertical-align: middle;
-    height: 20px;
-      width: 31px;
+    height: 35px;
+    width: 38px;
       margin-right: 5px;
       position: relative;
       top: -5px;
@@ -2066,15 +2066,15 @@ border: 2px solid #D4092D;
     display: inline-block;
         background-image: url(images/icono_leer.png);
     content: "";
-  width: 33px;
-    height: 33px;
+    height: 35px;
+    width: 38px;
     vertical-align: top;
     margin-right: 5px;
     margin-top: -8px;
   }
 
   /*icono lápiz*/
-  .icon-lapizrojo:before {
+  .icon-lapiz:before {
     background-image: url(images/icono_lapiz.png);
     content: "";
     background-repeat: no-repeat;
@@ -2085,8 +2085,8 @@ border: 2px solid #D4092D;
     background-position: center center;
     display: inline-block;
     vertical-align: middle;
-    height: 19px;
-    width: 17px;
+    height: 35px;
+    width: 38px;
     margin-right: 9px;
   }
 
@@ -2103,50 +2103,10 @@ border: 2px solid #D4092D;
     background-position: center center;
     display: inline-block;
     vertical-align: middle;
-    height: 19px;
-    width: 17px;
+    height: 35px;
+    width: 38px;
     margin-right: 9px;
   }
-
-
-
-  /*--- ESTOS DOS ICONOS SE USARON EN LA DEMO. NO BORRAR ---*/
-      /*icono libroazul*/
-      .icon-libroazul:before {
-        background-image: url(images/icono_libroazul.png);
-        content: "";
-        background-repeat: no-repeat;
-        -webkit-background-size: contain;
-        -moz-background-size: contain;
-        -o-background-size: contain;
-        background-size: contain;
-        background-position: center center;
-        display: inline-block;
-        vertical-align: middle;
-        height: 19px;
-        width: 17px;
-        margin-right: 9px;
-        position: relative;
-        top: -1px;
-      }
-      /*icono lápizAzul*/
-      .icon-lapizazul:before {
-          background-image: url(images/icono_lapizAzul.png);
-          content: "";
-          background-repeat: no-repeat;
-          -webkit-background-size: contain;
-          -moz-background-size: contain;
-          -o-background-size: contain;
-          background-size: contain;
-          background-position: center center;
-          display: inline-block;
-          vertical-align: middle;
-          height: 19px;
-          width: 17px;
-          margin-right: 9px;
-      }
-  /*-------------*/
-
 
 
   /**Iconos anterioresÂ¿?**/
@@ -2160,6 +2120,8 @@ border: 2px solid #D4092D;
     background-position: center center;
     display: inline-block;
     vertical-align: text-bottom;
+    height: 35px;
+    width: 38px;
   }
 
 /**TABLA y Celdas**/
