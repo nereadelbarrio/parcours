@@ -899,6 +899,15 @@ padding: 5px;
     background-color: #7099AC;
     margin-top: 2px;
   }
+
+      /*énfasis 21*/
+  .bck-enfasis-21 {
+      padding: 8px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #6B66A5;
+    margin-top: 2px;
+  }
 /*------*/
 
 
