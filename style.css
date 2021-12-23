@@ -643,7 +643,8 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 
 /*imágenes*/
 #actividad .content img {
-  border-radius: 1px;
+  /*border-radius: 1px;*/
+  border-radius: 20px 0 20px 0;
 }
 
 /*------*/
@@ -1624,9 +1625,14 @@ border: 2px solid #D4092D;
     color: inherit;
   }
 
+  .bck-box.bck-box-2 .bck-title:before {
+    display: none;
+  }
+
   .bck-box.bck-box-2>.bck-content {
   color: inherit;
     padding: 5px;
+    text-align: left;
   }
 
     .bck-box.bck-box-2>.bck-content ol {
@@ -1655,6 +1661,7 @@ border: 2px solid #D4092D;
   .bck-box.bck-box-3>.bck-content {
   color: inherit;
     padding: 5px;
+    text-align: left;
   }
 
     .bck-box.bck-box-3>.bck-content ol {
@@ -1682,6 +1689,7 @@ border: 2px solid #D4092D;
   .bck-box.bck-box-4>.bck-content {
   color: inherit;
     padding: 5px;
+    text-align: left;
   }
 
     .bck-box.bck-box-4>.bck-content ol {
@@ -1710,6 +1718,7 @@ border: 2px solid #D4092D;
   .bck-box.bck-box-5>.bck-content {
   color: inherit;
     padding: 5px;
+    text-align: left;
   }
 
     .bck-box.bck-box-5>.bck-content ol {
@@ -1737,6 +1746,7 @@ border: 2px solid #D4092D;
   .bck-box.bck-box-6>.bck-content {
   color: inherit;
     padding: 5px;
+    text-align: left;
   }
 
     .bck-box.bck-box-6>.bck-content ol {
@@ -1763,6 +1773,7 @@ border: 2px solid #D4092D;
 
   .bck-box.bck-box-7>.bck-content {
   color: inherit;
+  text-align: left;
     padding: 5px;
   }
 
@@ -1791,6 +1802,7 @@ border: 2px solid #D4092D;
   .bck-box.bck-box-8>.bck-content {
   color: inherit;
     padding: 5px;
+    text-align: left;
   }
 
     .bck-box.bck-box-8 .bck-content ol {
@@ -1849,6 +1861,7 @@ border: 2px solid #D4092D;
     background: #fff;
     padding: 40px 20px 20px 20px;
     border-radius: 10px;
+    text-align: left;
 }
 
 
@@ -1873,6 +1886,7 @@ border: 2px solid #D4092D;
 .bck-box.bck-box-10>.bck-content {
     padding: 20px 27px;
     background: #DFEFF4;
+    text-align: left;
 }
   /* CAJA 11*/
   .bck-box.bck-box-11 {
@@ -1894,80 +1908,15 @@ border: 2px solid #D4092D;
 }
 .bck-box.bck-box-11>.bck-content {
     padding: 20px 27px;
+    text-align: left;
     background: #FAECDF;
 }
 
   /* CAJA 12 - Bocadillo INFO*/
-  .bck-box-12 {
-     background: #e6e782;
-    padding: 8px 15px 8px 8px;
-    position: relative;
-    -moz-box-shadow: 2px 4px 10px 0px #0000002e;
-    -webkit-box-shadow: 2px 4px 10px 0px #0000002e;
-    box-shadow: 2px 4px 10px 0px #0000002e;
-    width: fit-content;
-    width: -moz-fit-content;
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
-    border-radius: 15px;
-  }
-  .bck-box-12 .bck-title {
-    color: #E61931;
-    font-family: 'Billy';
-    font-weight: bold;
-  }
-  .bck-box-12 .bck-title p {
-    font-family: 'Billy';
-    font-weight: bold;
-  }
-  .bck-box-12:before {
-    content: "";
-    position: absolute;
-    width: 0px;
-    height: 0px;
-    border-top: 31px solid #e6e782;
-    border-right: 0px solid #3c1515;
-    border-left: 20px solid #ffffff00;
-    bottom: 9px;
-    right: -25px;
-    margin: 0 0 0 40px;
-    -webkit-transform: rotatez(269deg);
-    -moz-transform: rotatez(269deg);
-    -ms-transform: rotatez(269deg);
-    -o-transform: rotatez(269deg);
-    transform: rotatez(269deg);
-}
+  
 
 /*CAJA 13 - AZUL BÁSICA */
 
-.bck-box.bck-box-13 {
-   padding: 8px 15px 8px 8px;
-  background-color: #D9EBEE;
-  }
-.bck-box-13 .bck-title {
-  color: #E61931;
-  font-family: 'Billy';
-  font-weight: bold;
-  }
-.bck-box-13 .bck-title p {
-  font-family: 'Billy';
-  font-weight: bold;
-}
-
-/*CAJA 14 - Blanca BÁSICA */
-.bck-box.bck-box-14 {
-  padding: 8px 15px 8px 8px;
- background-color: white;
- }
-.bck-box-14 .bck-title {
- color: #E61931;
- font-family: 'Billy';
- font-weight: bold;
- }
-.bck-box-14 .bck-title p {
- font-family: 'Billy';
- font-weight: bold;
-}
 
 /*-----------*/
 
