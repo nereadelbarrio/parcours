@@ -44,6 +44,7 @@
 				{ name: 'Énfasis 18', element: 'span', attributes: { 'class': 'bck-enfasis-18'} },
 				{ name: 'Énfasis 19', element: 'span', attributes: { 'class': 'bck-enfasis-19'} },
 				{ name: 'Énfasis 20', element: 'span', attributes: { 'class': 'bck-enfasis-20'} },
+				{ name: 'Énfasis 21', element: 'span', attributes: { 'class': 'bck-enfasis-21'} },
 
 				{ name: 'Lista desordenada 01', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-1'} },
 				{ name: 'Lista desordenada 02', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-2'} },
@@ -74,9 +75,7 @@
 				{ name: 'Caja 09', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-9' } },
 				{ name: 'Caja 10', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-10' } },
 				{ name: 'Caja 11', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-11' } },
-				{ name: 'Caja Bocadillo Info', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-12' } },
-				{ name: 'Caja Azul Básica', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-13' } },
-				{ name: 'Caja Blanca Básica', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-14' } },
+			
 
 				{ name: 'Tabla Azul', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-2'} },
 				
