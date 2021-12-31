@@ -19,10 +19,6 @@
 				{ name: 'Título 03', element: 'h2', attributes: { 'class': 'bck-title bck-title-3'} },
 				{ name: 'Título 04', element: 'h2', attributes: { 'class': 'bck-title bck-title-4'} },
 				{ name: 'Título 05', element: 'h2', attributes: { 'class': 'bck-title bck-title-5'} },
-				{ name: 'Título 06', element: 'h2', attributes: { 'class': 'bck-title bck-title-6'} },
-				{ name: 'Título 07', element: 'h2', attributes: { 'class': 'bck-title bck-title-7'} },
-				{ name: 'Título 08', element: 'h2', attributes: { 'class': 'bck-title bck-title-8'} },
-				{ name: 'Título 09', element: 'h2', attributes: { 'class': 'bck-title bck-title-9'} },
 				
 				{ name: 'Énfasis 01', element: 'span', attributes: { 'class': 'bck-enfasis-1'} },
 				{ name: 'Énfasis 02', element: 'span', attributes: { 'class': 'bck-enfasis-2'} },
@@ -79,14 +75,8 @@
 				{ name: 'Caja 09', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-9' } },
 				{ name: 'Caja 10', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-10' } },
 				{ name: 'Caja 11', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-11' } },
-			
-
-				{ name: 'Tabla Azul', element: 'table', type: 'bck-stack-class', attributes: { 'class': 'bck-table-2'} },
-				
-				{ name: 'Celda Azul', element: 'td', attributes: { 'class': 'bck-td-2'} },
 				
 				{ name: 'Icono Hablar', element: 'span', attributes: { 'class': 'icon icon-hablar' } },
-				{ name: 'Icono Audio', element: 'span', attributes: { 'class': 'icon icon-audio' } },
 				{ name: 'Icono Libro', element: 'span', attributes: { 'class': 'icon icon-libro' } },
 				{ name: 'Icono Lupa', element: 'span', attributes: { 'class': 'icon icon-lupa' } },
 				{ name: 'Icono Lápiz', element: 'span', attributes: { 'class': 'icon icon-lapiz' } }
