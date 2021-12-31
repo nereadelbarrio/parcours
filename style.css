@@ -722,17 +722,6 @@ a:focus {
 }
 
 
-  /*título negro*/
-  .bck-title-12 {
-      color: #555;
-      font-size: 2rem;
-      text-align: left;
-      font-family: 'HelveticaNeueLTStd-Lt';
-      font-weight: bold;
-      position: relative;
-      left: 9px;
-  }
-
 /*----*/
 
 /*---- ÉNFASIS ----*/
@@ -1956,10 +1945,6 @@ border: 2px solid #D4092D;
     background: #FAECDF;
 }
 
-  /* CAJA 12 - Bocadillo INFO*/
-  
-
-/*CAJA 13 - AZUL BÁSICA */
 
 
 /*-----------*/
@@ -1998,22 +1983,39 @@ border: 2px solid #D4092D;
 
 /*DESPLEGABLE*/
   .bck-dropdown-icon>.fa{
-    border: 3px solid #009BA7;
+    border: 3px solid #2D6590;
   }
 
   .fa-chevron-down:before {
-      color: #009BA7;
+      color: #2D6590;
   }
 
   .fa-chevron-up:before{
     color: #009BA7;
   }
   .bck-dropdown-titulo{
-    color: #009BA7;
+    color: #2D6590;
     line-height: initial;
+    font-weight:  700;
   }
   .bck-dropdown-content{
-    background-color: #f1f1f1;
+    background-color: #fff;
+  }
+
+  .bck-dropdown.bck-dropdown-1 {
+    background-color: #fff;
+    border: 3px solid #da203e;
+  }
+
+  .bck-dropdown-1 .bck-dropdown-icon {
+    background-color: #fff;
+  }
+
+  .bck-dropdown-1 .bck-dropdown-content {
+        background-color: #fff;
+    border: 1px solid #ffffff;
+    padding-left: 17px;
+    max-height: 800%;
   }
   /**/
   /*Activities Dropdown*/
@@ -2180,20 +2182,7 @@ table,
   border: 0px solid #ccc;
 }
 
-/*tabla azul y celda azul*/
-.bck-table-2 {
-  border: 1px solid #009BA7;
-}
 
-.bck-table-2 td {
-  border: 1px solid #009BA7;
-}
-
-/*celda azul*/
-table td.bck-td-2 {
-  background: #CDE2E7;
-  text-align: center;
-}
 
 /**/
 
