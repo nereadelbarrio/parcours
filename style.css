@@ -1592,9 +1592,9 @@ border: 2px solid #D4092D;
 
   /*CAJA 1*/
 .bck-box.bck-box-1 {
-    margin-top: 15px;
-    border: none;
-    background: transparent;
+  margin-top: 15px;
+    border: 3px solid #94c6d3;
+    background: #fff;
 }
 
 .bck-box.bck-box-1>.bck-title {
@@ -1602,8 +1602,7 @@ border: 2px solid #D4092D;
 }
 
 .bck-box.bck-box-1>.bck-content {
-    background-color: #ffffff;
-    border: 3px solid #a8d0dd;
+    
     border-radius: 0;
     padding: 8px 18px 8px 19px;
     width: auto;
@@ -1631,7 +1630,7 @@ border: 2px solid #D4092D;
     z-index: -5;
     width: 0;
     height: 100%;
-    background: TRANSPARENT;
+    background-color: #ffffff;
     border-right: 0;
     transform: none;
     transform-origin: 0;
