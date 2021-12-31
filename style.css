@@ -1966,17 +1966,21 @@ border: 2px solid #D4092D;
 }
 
 .info-popover .popover-title, .popover-template .popover-title {
-  background: #0F99A8;
+  background: #2d6590;
   color: white;;
 }
 .info-template.shown {
   background: white;
 }
 .info-template .info-title {
-  color: #0f99a8;
+  color:#2d6590;
 }
 .info-template .info-icon {
-  color: #0f99a8;
+  color: #2d6590;
+}
+
+.info-template .info-title.shown:before {
+  color: #da203e;
 }
 
 /**/
