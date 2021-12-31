@@ -2006,6 +2006,11 @@ border: 2px solid #D4092D;
     background-color: #fff;
   }
 
+  .bck-dropdown .bck-dropdown-titulo, 
+  .bck-dropdown-1 .bck-dropdown-titulo {
+    color: #2D6590;
+  }
+
   .bck-dropdown.bck-dropdown-1 {
     background-color: #fff;
     border: 3px solid #da203e;
