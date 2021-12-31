@@ -1595,6 +1595,8 @@ border: 2px solid #D4092D;
   margin-top: 15px;
     border: 3px solid #94c6d3;
     background: #fff;
+    padding: 10px 25px;
+    text-align: left;
 }
 
 .bck-box.bck-box-1>.bck-title {
@@ -1610,30 +1612,20 @@ border: 2px solid #D4092D;
 
 .bck-box.bck-box-1:after {
     background-image: url(images/icono_caja_01.png);
-    content: " ";
-    position: absolute;
-    right: -18px;
-    top: 20px;
-    z-index: 100;
-    padding: 10px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    display: inline-block;
-    height: 34%;
-}
-
-.bck-box.bck-box-1:after {
-    content: "";
+        content: "";
     position: absolute;
     bottom: 0;
     right: -14px;
     z-index: -5;
     width: 0;
-    height: 100%;
+    height: fit-content;
     background-color: #ffffff;
     border-right: 0;
-    transform: none;
-    transform-origin: 0;
+    top: 20px;
+    padding: 12px 7px 4px 8px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
 }
 
 .bck-box.bck-box-1:before {
