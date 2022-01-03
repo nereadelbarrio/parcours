@@ -393,11 +393,11 @@ TOPE-LÀ*/
 .content_type_curso_parcours .libro-left ul li .title:before {
     content: "";
     background-size: contain;
-    top: 6px;
+   top: 10px;
     background-image: url(images/logo.jpg)!important;
     position: fixed;
-    width: 135px;
-    height: 32px;
+    width: 79px;
+    height: 25px;
     background-repeat: no-repeat;
     left: 50%;
     margin-left: -40px;
@@ -411,10 +411,10 @@ TOPE-LÀ*/
 .navbar-content .logo-publisher {
     display: inline-block;
     position: absolute;
-    top: 0;
+    top: 4px;
     left: 0;
-    width: 100px;
-    height: 39px;
+    width: 79px;
+    height: 25px;
     background: url(images/logo.jpg) 0 0 no-repeat;
     -webkit-background-size: contain;
     -moz-background-size: contain;
