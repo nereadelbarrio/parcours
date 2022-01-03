@@ -2046,6 +2046,353 @@ border-radius: 0;
 }
 
 
+  /*CAJA 12*/
+  .bck-box.bck-box-12 {
+    margin-top: 15px;
+    border: 3px solid #107abb;
+    background: #fff;
+    padding: 10px 25px;
+    text-align: left;
+    margin-top: 15px;
+    border-radius: 0;
+  }
+
+ .bck-box.bck-box-12:after {
+background-image: url(images/icono_caja_00xf.png);
+    content: "";
+    position: absolute;
+    left: -26px;
+    z-index: 100;
+    width: 45px;
+    height: 23px;
+    background-color: #ffffff;
+    border-right: 0;
+    top: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+  .bck-box.bck-box-12>.bck-title {
+    color: inherit;
+    padding: 0;
+    border: 0;
+  }
+
+  .bck-box.bck-box-12>.bck-content {
+  border-radius: 0;
+    text-align: left;
+    padding: 0;
+  }
+
+    .bck-box.bck-box-12 .bck-content ol {
+  margin-bottom: 0px;
+  margin-left: 0px;
+  }
+
+
+   /*CAJA 13*/
+  .bck-box.bck-box-13 {
+    margin-top: 15px;
+    border: 3px solid #107abb;
+    background: #fff;
+    padding: 10px 25px;
+    text-align: left;
+    margin-top: 15px;
+    border-radius: 0;
+  }
+
+ .bck-box.bck-box-13:after {
+background-image: url(images/icono_caja_00xe.png);
+    content: "";
+    position: absolute;
+    left: -26px;
+    z-index: 100;
+    width: 45px;
+    height: 23px;
+    background-color: #ffffff;
+    border-right: 0;
+    top: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+  .bck-box.bck-box-13>.bck-title {
+    color: inherit;
+    padding: 0;
+    border: 0;
+  }
+
+  .bck-box.bck-box-13>.bck-content {
+  border-radius: 0;
+    text-align: left;
+    padding: 0;
+  }
+
+    .bck-box.bck-box-13 .bck-content ol {
+  margin-bottom: 0px;
+  margin-left: 0px;
+  }
+
+
+ /*CAJA 14*/
+  .bck-box.bck-box-14 {
+    margin-top: 15px;
+    border: 3px solid #107abb;
+    background: #fff;
+    padding: 10px 25px;
+    text-align: left;
+    margin-top: 15px;
+    border-radius: 0;
+  }
+
+ .bck-box.bck-box-14:after {
+background-image: url(images/icono_caja_00xh.png);
+    content: "";
+    position: absolute;
+    left: -26px;
+    z-index: 100;
+    width: 45px;
+    height: 23px;
+    background-color: #ffffff;
+    border-right: 0;
+    top: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+  .bck-box.bck-box-14>.bck-title {
+    color: inherit;
+    padding: 0;
+    border: 0;
+  }
+
+  .bck-box.bck-box-14>.bck-content {
+  border-radius: 0;
+    text-align: left;
+    padding: 0;
+  }
+
+    .bck-box.bck-box-14 .bck-content ol {
+  margin-bottom: 0px;
+  margin-left: 0px;
+  }
+
+  /*CAJA 15*/
+  .bck-box.bck-box-15 {
+    margin-top: 15px;
+    border: 3px solid #107abb;
+    background: #fff;
+    padding: 10px 25px;
+    text-align: left;
+    margin-top: 15px;
+    border-radius: 0;
+  }
+
+ .bck-box.bck-box-15:after {
+background-image: url(images/icono_caja_001.png);
+    content: "";
+    position: absolute;
+    left: -26px;
+    z-index: 100;
+    width: 45px;
+    height: 23px;
+    background-color: #ffffff;
+    border-right: 0;
+    top: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+  .bck-box.bck-box-15>.bck-title {
+    color: inherit;
+    padding: 0;
+    border: 0;
+  }
+
+  .bck-box.bck-box-15>.bck-content {
+  border-radius: 0;
+    text-align: left;
+    padding: 0;
+  }
+
+    .bck-box.bck-box-15 .bck-content ol {
+  margin-bottom: 0px;
+  margin-left: 0px;
+  }
+
+
+  /*CAJA 16*/
+  .bck-box.bck-box-16 {
+    margin-top: 15px;
+    border: 3px solid #107abb;
+    background: #fff;
+    padding: 10px 25px;
+    text-align: left;
+    margin-top: 15px;
+    border-radius: 0;
+  }
+
+ .bck-box.bck-box-16:after {
+background-image: url(images/icono_caja_00xg.png);
+    content: "";
+    position: absolute;
+    left: -26px;
+    z-index: 100;
+    width: 45px;
+    height: 23px;
+    background-color: #ffffff;
+    border-right: 0;
+    top: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+  .bck-box.bck-box-16>.bck-title {
+    color: inherit;
+    padding: 0;
+    border: 0;
+  }
+
+  .bck-box.bck-box-16>.bck-content {
+  border-radius: 0;
+    text-align: left;
+    padding: 0;
+  }
+
+    .bck-box.bck-box-16 .bck-content ol {
+  margin-bottom: 0px;
+  margin-left: 0px;
+  }
+
+   /*CAJA 17*/
+  .bck-box.bck-box-17 {
+    margin-top: 15px;
+    border: 3px solid #107abb;
+    background: #fff;
+    padding: 10px 25px;
+    text-align: left;
+    margin-top: 15px;
+    border-radius: 0;
+  }
+
+ .bck-box.bck-box-17:after {
+background-image: url(images/icono_caja_00xa.png);
+    content: "";
+    position: absolute;
+    left: -26px;
+    z-index: 100;
+    width: 45px;
+    height: 23px;
+    background-color: #ffffff;
+    border-right: 0;
+    top: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+  .bck-box.bck-box-17>.bck-title {
+    color: inherit;
+    padding: 0;
+    border: 0;
+  }
+
+  .bck-box.bck-box-17>.bck-content {
+  border-radius: 0;
+    text-align: left;
+    padding: 0;
+  }
+
+    .bck-box.bck-box-17 .bck-content ol {
+  margin-bottom: 0px;
+  margin-left: 0px;
+  }
+
+ /*CAJA 18*/
+  .bck-box.bck-box-18 {
+    margin-top: 15px;
+    border: 3px solid #107abb;
+    background: #fff;
+    padding: 10px 25px;
+    text-align: left;
+    margin-top: 15px;
+    border-radius: 0;
+  }
+
+ .bck-box.bck-box-18:after {
+background-image: url(images/icono_caja_00xc.png);
+    content: "";
+    position: absolute;
+    left: -26px;
+    z-index: 100;
+    width: 45px;
+    height: 23px;
+    background-color: #ffffff;
+    border-right: 0;
+    top: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+  .bck-box.bck-box-18>.bck-title {
+    color: inherit;
+    padding: 0;
+    border: 0;
+  }
+
+  .bck-box.bck-box-18>.bck-content {
+  border-radius: 0;
+    text-align: left;
+    padding: 0;
+  }
+
+    .bck-box.bck-box-18 .bck-content ol {
+  margin-bottom: 0px;
+  margin-left: 0px;
+  }
+
+  /*CAJA 19*/
+  .bck-box.bck-box-19 {
+    margin-top: 15px;
+    border: 3px solid #107abb;
+    background: #fff;
+    padding: 10px 25px;
+    text-align: left;
+    margin-top: 15px;
+    border-radius: 0;
+  }
+
+ .bck-box.bck-box-19:after {
+background-image: url(images/icono_caja_00xx.png);
+    content: "";
+    position: absolute;
+    left: -26px;
+    z-index: 100;
+    width: 45px;
+    height: 23px;
+    background-color: #ffffff;
+    border-right: 0;
+    top: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+  .bck-box.bck-box-19>.bck-title {
+    color: inherit;
+    padding: 0;
+    border: 0;
+  }
+
+  .bck-box.bck-box-19>.bck-content {
+  border-radius: 0;
+    text-align: left;
+    padding: 0;
+  }
+
+    .bck-box.bck-box-19 .bck-content ol {
+  margin-bottom: 0px;
+  margin-left: 0px;
+  }
+
 
 /*-----------*/
 
