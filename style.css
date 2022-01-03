@@ -1615,10 +1615,10 @@ border: 2px solid #D4092D;
     background-image: url(images/icono_caja_01.png);
         content: "";
     position: absolute;
-    right: -49px;
+    right: -39px;
     z-index: 100;
     width: 45px;
-    height: 25px;
+    height: 23px;
     background-color: #ffffff;
     border-right: 0;
     top: 20px;
@@ -1829,7 +1829,7 @@ border-radius: 0;
     background-image: url(images/icono_caja_0xh.png);
         content: "";
     position: absolute;
-   right: -46px;
+   right: -39px;
     z-index: 100;
     width: 45px;
     height: 23px;
@@ -1869,7 +1869,7 @@ border-radius: 0;
   }
 
  .bck-box.bck-box-7:after {
-    background-image: url(images/icono_caja_0xi.png);
+    background-image: url(images/icono_caja_00xi.png);
         content: "";
     position: absolute;
    right: -46px;
@@ -1912,7 +1912,7 @@ border-radius: 0;
   }
 
  .bck-box.bck-box-8:after {
-    background-image: url(images/icono_caja_0xj.png);
+    background-image: url(images/icono_caja_00xj.png);
         content: "";
     position: absolute;
    right: -46px;
