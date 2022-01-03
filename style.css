@@ -1872,7 +1872,7 @@ border-radius: 0;
     background-image: url(images/icono_caja_00xi.png);
         content: "";
     position: absolute;
-   right: -46px;
+   right: -39px;
     z-index: 100;
     width: 45px;
     height: 23px;
@@ -1915,7 +1915,7 @@ border-radius: 0;
     background-image: url(images/icono_caja_00xj.png);
         content: "";
     position: absolute;
-   right: -46px;
+   right: -39px;
     z-index: 100;
     width: 45px;
     height: 23px;
@@ -2192,7 +2192,7 @@ background-image: url(images/icono_caja_00xh.png);
 background-image: url(images/icono_caja_001.png);
     content: "";
     position: absolute;
-    left: -26px;
+    left: -24px;
     z-index: 100;
     width: 45px;
     height: 23px;
@@ -2322,7 +2322,7 @@ background-image: url(images/icono_caja_00xa.png);
 background-image: url(images/icono_caja_00xc.png);
     content: "";
     position: absolute;
-    left: -26px;
+    left: -24px;
     z-index: 100;
     width: 45px;
     height: 23px;
@@ -2362,10 +2362,10 @@ background-image: url(images/icono_caja_00xc.png);
   }
 
  .bck-box.bck-box-19:after {
-background-image: url(images/icono_caja_00xx.png);
+background-image: url(images/icono_cajaxx.png);
     content: "";
     position: absolute;
-    left: -26px;
+    left: -24px;
     z-index: 100;
     width: 45px;
     height: 23px;
@@ -2892,6 +2892,46 @@ box-shadow: 0px 1px 1px rgb(0 0 0 / 8%) inset, 0px 0px 8px rgb(45 101 144 / 41%)
 .btn-danger, .btn-danger[disabled]{
 	margin-bottom: 10px;
 }
+
+.bck-box.bck-box-1 {
+  width: 95%;
+}
+
+.bck-box.bck-box-2 {
+  width: 95%;
+}
+
+.bck-box.bck-box-3 {
+  width: 95%;
+}
+
+.bck-box.bck-box-4 {
+  width: 95%;
+}
+
+.bck-box.bck-box-5 {
+  width: 95%;
+}
+
+.bck-box.bck-box-6 {
+  width: 95%;
+}
+
+.bck-box.bck-box-7 {
+  width: 95%;
+}
+
+.bck-box.bck-box-8 {
+  width: 95%;
+}
+
+.bck-box.bck-box-9 {
+  width: 108%
+}
+
+.bck-box.bck-box-9>.bck-title:before {
+  LEFT: 11px;
+}
 }
 
 
@@ -2923,6 +2963,89 @@ box-shadow: 0px 1px 1px rgb(0 0 0 / 8%) inset, 0px 0px 8px rgb(45 101 144 / 41%)
 .bck-dropdown-icon>.fa{
 	padding: 4px;
 }	
+
+.bck-box.bck-box-1 {
+  width: 95%;
+}
+
+.bck-box.bck-box-2 {
+  width: 95%;
+}
+
+.bck-box.bck-box-3 {
+  width: 95%;
+}
+
+.bck-box.bck-box-4 {
+  width: 95%;
+}
+
+.bck-box.bck-box-5 {
+  width: 95%;
+}
+
+.bck-box.bck-box-6 {
+  width: 95%;
+}
+
+.bck-box.bck-box-7 {
+  width: 95%;
+}
+
+.bck-box.bck-box-8 {
+  width: 95%;
+}
+
+.bck-box.bck-box-9 {
+  width: 106%
+}
+
+.bck-box.bck-box-9>.bck-title:before {
+  LEFT: 11px;
+}
+}
+
+@media screen and (max-width: 768px) {
+
+.bck-box.bck-box-1 {
+  width: 97%;
+}
+
+.bck-box.bck-box-2 {
+  width: 97%;
+}
+
+.bck-box.bck-box-3 {
+  width: 97%;
+}
+
+.bck-box.bck-box-4 {
+  width: 97%;
+}
+
+.bck-box.bck-box-5 {
+  width: 97%;
+}
+
+.bck-box.bck-box-6 {
+  width: 97%;
+}
+
+.bck-box.bck-box-7 {
+  width: 97%;
+}
+
+.bck-box.bck-box-8 {
+  width: 97%;
+}
+
+.bck-box.bck-box-9 {
+  width: 103.9%
+}
+
+.bck-box.bck-box-9>.bck-title:before {
+  LEFT: 11px;
+}
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 769px)  {
