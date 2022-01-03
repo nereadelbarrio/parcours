@@ -1829,7 +1829,7 @@ border-radius: 0;
     background-image: url(images/icono_caja_0xh.png);
         content: "";
     position: absolute;
-   right: -40px;
+   right: -46px;
     z-index: 100;
     width: 45px;
     height: 23px;
@@ -1869,10 +1869,10 @@ border-radius: 0;
   }
 
  .bck-box.bck-box-7:after {
-    background-image: url(images/icono_caja_0xh.png);
+    background-image: url(images/icono_caja_0xi.png);
         content: "";
     position: absolute;
-   right: -40px;
+   right: -46px;
     z-index: 100;
     width: 45px;
     height: 23px;
@@ -1903,7 +1903,7 @@ border-radius: 0;
     /*CAJA 8*/
   .bck-box.bck-box-8 {
     margin-top: 15px;
-    border: 4px solid #1B5C85;
+    border: 4px solid #107abb;
     background: #fff;
     padding: 10px 25px;
     text-align: left;
@@ -1912,10 +1912,10 @@ border-radius: 0;
   }
 
  .bck-box.bck-box-8:after {
-    background-image: url(images/icono_caja_0xf.png);
+    background-image: url(images/icono_caja_0xj.png);
         content: "";
     position: absolute;
-   right: -40px;
+   right: -46px;
     z-index: 100;
     width: 45px;
     height: 23px;
