@@ -1600,19 +1600,22 @@ border: 2px solid #D4092D;
 }
 
 .bck-box.bck-box-1>.bck-title {
-    color: inherit
+    color: inherit;
+    padding: 0;
+    border: 0;
 }
 
 .bck-box.bck-box-1>.bck-content {
     border-radius: 0;
     text-align: left;
+    padding: 0;
 }
 
 .bck-box.bck-box-1:after {
     background-image: url(images/icono_caja_01.png);
         content: "";
     position: absolute;
-    ight: -49px;
+    right: -49px;
     z-index: 100;
     width: 45px;
     height: 25px;
@@ -1641,12 +1644,15 @@ border: 2px solid #D4092D;
   }
 
   .bck-box.bck-box-2>.bck-title {
-    color: inherit
+    color: inherit;
+    padding: 0;
+    border: 0;
 }
 
 .bck-box.bck-box-2>.bck-content {
     border-radius: 0;
     text-align: left;
+    padding: 0;
 }
 
 .bck-box.bck-box-2:after {
