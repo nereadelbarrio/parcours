@@ -388,6 +388,48 @@ TOPE-LÀ*/
   }
 /*----*/
 
+/*LOGO*/
+
+.content_type_curso_parcours .libro-left ul li .title:before {
+    content: "";
+    background-size: contain;
+    top: 6px;
+    background-image: url(images/logo.JPG)!important;
+    position: fixed;
+    width: 135px;
+    height: 32px;
+    background-repeat: no-repeat;
+    left: 50%;
+    margin-left: -40px;
+    opacity: 1;
+}
+
+.content_type_curso_parcours.content_type_clase_parcours .libro-left ul li .title:before {
+    opacity: 0
+}
+
+.navbar-content .logo-publisher {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 39px;
+    background: url(images/logo.JPG) 0 0 no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-position: 50%;
+}
+
+
+.logo-publisher {
+    display: none;
+    background: none
+}
+
+
 /* NAVBAR (Breadcums) */
 
   .parcours-navbar {
@@ -630,6 +672,7 @@ background-color: #00800000;
 
 body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
     color: inherit;
+    background-color: #Fff;
 }
 
 #actividad .content img.player, 
@@ -2770,6 +2813,9 @@ border-color: #009FA5;
 
 
 /*Botonera*/
+.btn {
+  border-radius: 0px;
+}
 
 .btn-danger, .btn-danger[disabled] {
   color: #fff;
