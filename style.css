@@ -394,7 +394,7 @@ TOPE-LÀ*/
     content: "";
     background-size: contain;
     top: 6px;
-    background-image: url(images/logo.JPG)!important;
+    background-image: url(images/logo.jpg)!important;
     position: fixed;
     width: 135px;
     height: 32px;
@@ -415,7 +415,7 @@ TOPE-LÀ*/
     left: 0;
     width: 100px;
     height: 39px;
-    background: url(images/logo.JPG) 0 0 no-repeat;
+    background: url(images/logo.jpg) 0 0 no-repeat;
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
