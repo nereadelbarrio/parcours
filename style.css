@@ -122,6 +122,7 @@ TOPE-LÀ*/
     font-size: 16px;
     font-weight: normal;
     font-family: 'Proxima Nova Rg';
+    background-color: #fff;
   }
   .body_clase .content-wrapper,
   .body_clase.view-mode .content-wrapper {
@@ -259,6 +260,12 @@ TOPE-LÀ*/
 
   #indice .unit-content .actividades {
     border-top: 0;
+  }
+
+
+  .libro-left #btn-book-index, 
+  #indice .unit-content {
+box-shadow: 0px 2px 3px 1px #e8e8e8;
   }
 /*-----------*/
 
