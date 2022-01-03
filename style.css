@@ -1597,6 +1597,7 @@ border: 2px solid #D4092D;
     background: #fff;
     padding: 10px 25px;
     text-align: left;
+    width: 97%;
 }
 
 .bck-box.bck-box-1>.bck-title {
@@ -1641,6 +1642,7 @@ border: 2px solid #D4092D;
     text-align: left;
     margin-top: 15px;
     border-radius: 0;
+    width: 97%;
   }
 
   .bck-box.bck-box-2>.bck-title {
@@ -1692,6 +1694,7 @@ display: none;
     padding: 10px 25px;
     text-align: left;
     margin-top: 15px;
+    width: 97%;
     border-radius: 0;
   }
 
@@ -1736,6 +1739,7 @@ display: none;
     text-align: left;
     margin-top: 15px;
     border-radius: 0;
+    width: 97%;
   }
 
   .bck-box.bck-box-4:after {
@@ -1780,6 +1784,7 @@ border-radius: 0;
     text-align: left;
     margin-top: 15px;
     border-radius: 0;
+    width: 97%;
   }
 
     .bck-box.bck-box-5:after {
@@ -1822,6 +1827,7 @@ border-radius: 0;
     padding: 10px 25px;
     text-align: left;
     margin-top: 15px;
+    width: 97%;
     border-radius: 0;
   }
 
@@ -1866,6 +1872,7 @@ border-radius: 0;
     text-align: left;
     margin-top: 15px;
     border-radius: 0;
+    width: 97%;
   }
 
  .bck-box.bck-box-7:after {
@@ -1908,6 +1915,7 @@ border-radius: 0;
     padding: 10px 25px;
     text-align: left;
     margin-top: 15px;
+    width: 97%;
     border-radius: 0;
   }
 
@@ -2055,6 +2063,7 @@ border-radius: 0;
     text-align: left;
     margin-top: 15px;
     border-radius: 0;
+    width: 97%;
   }
 
  .bck-box.bck-box-12:after {
@@ -2099,6 +2108,7 @@ background-image: url(images/icono_caja_00xf.png);
     text-align: left;
     margin-top: 15px;
     border-radius: 0;
+    width: 97%;
   }
 
  .bck-box.bck-box-13:after {
@@ -2142,6 +2152,7 @@ background-image: url(images/icono_caja_00xe.png);
     padding: 10px 25px;
     text-align: left;
     margin-top: 15px;
+    width: 97%;
     border-radius: 0;
   }
 
@@ -2185,6 +2196,7 @@ background-image: url(images/icono_caja_00xh.png);
     padding: 10px 25px;
     text-align: left;
     margin-top: 15px;
+    width: 97%;
     border-radius: 0;
   }
 
@@ -2228,6 +2240,7 @@ background-image: url(images/icono_caja_001.png);
     background: #fff;
     padding: 10px 25px;
     text-align: left;
+    width: 97%;
     margin-top: 15px;
     border-radius: 0;
   }
@@ -2273,6 +2286,7 @@ background-image: url(images/icono_caja_00xg.png);
     text-align: left;
     margin-top: 15px;
     border-radius: 0;
+    width: 97%;
   }
 
  .bck-box.bck-box-17:after {
@@ -2315,6 +2329,7 @@ background-image: url(images/icono_caja_00xa.png);
     padding: 10px 25px;
     text-align: left;
     margin-top: 15px;
+    width: 97%;
     border-radius: 0;
   }
 
@@ -2358,6 +2373,7 @@ background-image: url(images/icono_caja_00xc.png);
     padding: 10px 25px;
     text-align: left;
     margin-top: 15px;
+    width: 97%;
     border-radius: 0;
   }
 
