@@ -1629,32 +1629,42 @@ border: 2px solid #D4092D;
   display: none;
 }
 
-  /*Caja 2*/
+  /*Caja 2*/ 
   .bck-box.bck-box-2 {
     margin-top: 15px;
     border: 4px solid #4CA94B;
-    -webkit-border-radius: 37px;
-    -moz-border-radius: 37px;
-    border-radius: 37px;
-    background: #ffffff;
-    padding: 10px;
-    width: fit-content;
-    width: -moz-fit-content;
+    background: #fff;
+    padding: 10px 25px;
+    text-align: left;
+    margin-top: 15px;
+    
   }
 
   .bck-box.bck-box-2>.bck-title {
-    color: inherit;
-  }
+    color: inherit
+}
 
-  .bck-box.bck-box-2 .bck-title:before {
-    display: none;
-  }
+.bck-box.bck-box-2>.bck-content {
+    
+    border-radius: 0;
+    padding: 8px 18px 8px 19px;
+    width: auto;
+}
 
-  .bck-box.bck-box-2>.bck-content {
-  color: inherit;
-    padding: 5px;
-    text-align: left;
-  }
+.bck-box.bck-box-2:after {
+    background-image: url(images/icono_caja_0xc.png);
+        content: "";
+    position: absolute;
+    right: -68px;
+    z-index: 100;
+    width: 66px;
+    height: 46px;
+    background-color: #ffffff;
+    border-right: 0;
+    top: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 
     .bck-box.bck-box-2>.bck-content ol {
   margin-bottom: 0px;
