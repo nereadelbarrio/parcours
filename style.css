@@ -1659,10 +1659,10 @@ border: 2px solid #D4092D;
     background-image: url(images/icono_caja_0xc.png);
         content: "";
     position: absolute;
-    right: -48px;
+   right: -40px;
     z-index: 100;
     width: 45px;
-    height: 25px;
+    height: 23px;
     background-color: #ffffff;
     border-right: 0;
     top: 20px;
@@ -1672,6 +1672,10 @@ border: 2px solid #D4092D;
 
 .bck-box.bck-box-2:before {
   display: none;
+}
+
+.bck-box.bck-box-2>.bck-title:before {
+display: none;
 }
 
     .bck-box.bck-box-2>.bck-content ol {
@@ -1684,23 +1688,38 @@ border: 2px solid #D4092D;
   .bck-box.bck-box-3 {
     margin-top: 15px;
     border: 4px solid #D43647;
-    -webkit-border-radius: 37px;
-    -moz-border-radius: 37px;
-    border-radius: 37px;
-    background: #ffffff;
-    padding: 10px;
-    width: fit-content;
-    width: -moz-fit-content;
+    background: #fff;
+    padding: 10px 25px;
+    text-align: left;
+    margin-top: 15px;
+    border-radius: 0;
   }
+
+  .bck-box.bck-box-3:after {
+    background-image: url(images/icono_caja_0xa.png);
+        content: "";
+    position: absolute;
+   right: -40px;
+    z-index: 100;
+    width: 45px;
+    height: 23px;
+    background-color: #ffffff;
+    border-right: 0;
+    top: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 
   .bck-box.bck-box-3>.bck-title {
     color: inherit;
+    padding: 0;
+    border: 0;
   }
 
   .bck-box.bck-box-3>.bck-content {
-  color: inherit;
-    padding: 5px;
+    border-radius: 0;
     text-align: left;
+    padding: 0;
   }
 
     .bck-box.bck-box-3>.bck-content ol {
@@ -1712,23 +1731,38 @@ border: 2px solid #D4092D;
   .bck-box.bck-box-4 {
     margin-top: 15px;
     border: 4px solid #F49E27;
-    -webkit-border-radius: 37px;
-    -moz-border-radius: 37px;
-    border-radius: 37px;
-    background: #ffffff;
-    padding: 10px;
-    width: fit-content;
-    width: -moz-fit-content;
+    background: #fff;
+    padding: 10px 25px;
+    text-align: left;
+    margin-top: 15px;
+    border-radius: 0;
   }
 
+  .bck-box.bck-box-4:after {
+    background-image: url(images/icono_caja_0xg.png);
+        content: "";
+    position: absolute;
+   right: -40px;
+    z-index: 100;
+    width: 45px;
+    height: 23px;
+    background-color: #ffffff;
+    border-right: 0;
+    top: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
   .bck-box.bck-box-4>.bck-title {
-    color: inherit;
+      color: inherit;
+    padding: 0;
+    border: 0;
   }
 
   .bck-box.bck-box-4>.bck-content {
-  color: inherit;
-    padding: 5px;
+border-radius: 0;
     text-align: left;
+    padding: 0;
   }
 
     .bck-box.bck-box-4>.bck-content ol {
@@ -1741,23 +1775,38 @@ border: 2px solid #D4092D;
   .bck-box.bck-box-5 {
     margin-top: 15px;
     border: 4px solid #00A2E6;
-    -webkit-border-radius: 37px;
-    -moz-border-radius: 37px;
-    border-radius: 37px;
-    background: #ffffff;
-    padding: 10px;
-    width: fit-content;
-    width: -moz-fit-content;
+    background: #fff;
+    padding: 10px 25px;
+    text-align: left;
+    margin-top: 15px;
+    border-radius: 0;
   }
 
+    .bck-box.bck-box-5:after {
+    background-image: url(images/icono_caja_0xf.png);
+        content: "";
+    position: absolute;
+   right: -40px;
+    z-index: 100;
+    width: 45px;
+    height: 23px;
+    background-color: #ffffff;
+    border-right: 0;
+    top: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
   .bck-box.bck-box-5>.bck-title {
-    color: inherit;
+          color: inherit;
+    padding: 0;
+    border: 0;;
   }
 
   .bck-box.bck-box-5>.bck-content {
-  color: inherit;
-    padding: 5px;
+border-radius: 0;
     text-align: left;
+    padding: 0;
   }
 
     .bck-box.bck-box-5>.bck-content ol {
@@ -1769,23 +1818,38 @@ border: 2px solid #D4092D;
   .bck-box.bck-box-6 {
     margin-top: 15px;
     border: 4px solid #F164A4;
-    -webkit-border-radius: 37px;
-    -moz-border-radius: 37px;
-    border-radius: 37px;
-    background: #ffffff;
-    padding: 10px;
-    width: fit-content;
-    width: -moz-fit-content;
+    background: #fff;
+    padding: 10px 25px;
+    text-align: left;
+    margin-top: 15px;
+    border-radius: 0;
   }
+
+      .bck-box.bck-box-6:after {
+    background-image: url(images/icono_caja_0xh.png);
+        content: "";
+    position: absolute;
+   right: -40px;
+    z-index: 100;
+    width: 45px;
+    height: 23px;
+    background-color: #ffffff;
+    border-right: 0;
+    top: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 
   .bck-box.bck-box-6>.bck-title {
     color: inherit;
+    padding: 0;
+    border: 0;
   }
 
   .bck-box.bck-box-6>.bck-content {
-  color: inherit;
-    padding: 5px;
+  border-radius: 0;
     text-align: left;
+    padding: 0;
   }
 
     .bck-box.bck-box-6>.bck-content ol {
@@ -1797,23 +1861,38 @@ border: 2px solid #D4092D;
   .bck-box.bck-box-7 {
     margin-top: 15px;
     border: 4px solid #923E76;
-    -webkit-border-radius: 37px;
-    -moz-border-radius: 37px;
-    border-radius: 37px;
-    background: #ffffff;
-    padding: 10px;
-    width: fit-content;
-    width: -moz-fit-content;
+    background: #fff;
+    padding: 10px 25px;
+    text-align: left;
+    margin-top: 15px;
+    border-radius: 0;
   }
 
+ .bck-box.bck-box-7:after {
+    background-image: url(images/icono_caja_0xh.png);
+        content: "";
+    position: absolute;
+   right: -40px;
+    z-index: 100;
+    width: 45px;
+    height: 23px;
+    background-color: #ffffff;
+    border-right: 0;
+    top: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
   .bck-box.bck-box-7>.bck-title {
-    color: inherit;
+        color: inherit;
+    padding: 0;
+    border: 0;
   }
 
   .bck-box.bck-box-7>.bck-content {
-  color: inherit;
-  text-align: left;
-    padding: 5px;
+  border-radius: 0;
+    text-align: left;
+    padding: 0;
   }
 
     .bck-box.bck-box-7>.bck-content ol {
@@ -1825,23 +1904,38 @@ border: 2px solid #D4092D;
   .bck-box.bck-box-8 {
     margin-top: 15px;
     border: 4px solid #1B5C85;
-    -webkit-border-radius: 37px;
-    -moz-border-radius: 37px;
-    border-radius: 37px;
-    background: #ffffff;
-    padding: 10px;
-    width: fit-content;
-    width: -moz-fit-content;
+    background: #fff;
+    padding: 10px 25px;
+    text-align: left;
+    margin-top: 15px;
+    border-radius: 0;
   }
+
+ .bck-box.bck-box-8:after {
+    background-image: url(images/icono_caja_0xf.png);
+        content: "";
+    position: absolute;
+   right: -40px;
+    z-index: 100;
+    width: 45px;
+    height: 23px;
+    background-color: #ffffff;
+    border-right: 0;
+    top: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 
   .bck-box.bck-box-8>.bck-title {
     color: inherit;
+    padding: 0;
+    border: 0;
   }
 
   .bck-box.bck-box-8>.bck-content {
-  color: inherit;
-    padding: 5px;
+  border-radius: 0;
     text-align: left;
+    padding: 0;
   }
 
     .bck-box.bck-box-8 .bck-content ol {
