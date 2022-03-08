@@ -45,6 +45,7 @@
 				{ name: 'Énfasis 23', element: 'span', attributes: { 'class': 'bck-enfasis-23'} },
 				{ name: 'Énfasis 24', element: 'span', attributes: { 'class': 'bck-enfasis-24'} },
 				{ name: 'Énfasis 25', element: 'span', attributes: { 'class': 'bck-enfasis-25'} },
+				{ name: 'Énfasis 26', element: 'span', attributes: { 'class': 'bck-enfasis-26'} },
 
 				{ name: 'Lista desordenada 01', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-1'} },
 				{ name: 'Lista desordenada 02', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-2'} },
