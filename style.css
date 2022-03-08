@@ -386,7 +386,7 @@ box-shadow: 0px 2px 3px 1px #e8e8e8;
   }
 
   .texto_curso li input {
-    height: 1.8em !important;
+    height: 1.4em !important;
     margin-bottom: 7px;
   }
 
@@ -1635,6 +1635,45 @@ border: 2px solid #D4092D;
     border: inherit;
     line-height: inherit;
 }  
+
+/*LISTA 12*/
+  #actividad .content .cke_contents .bck-ol-12,
+  #actividad .content .texto_curso .bck-ol-12,
+  #actividad .content .workspace ul li .bck-ol-12,
+  #actividad .popover-content .bck-ol-12 {
+    list-style-type: none;
+    counter-reset: bck-li-counter;
+    margin-left: 20px;
+  }
+
+  #actividad .content .cke_contents .bck-ol-112 li,
+  #actividad .content .cke_contents .bck-ol-112 li,
+  #actividad .content .texto_curso .bck-ol-112 li,
+  #actividad .popover-content .bck-ol-112 li,
+  #actividad .content .workspace ul li .bck-ol-112 li {
+    counter-increment: bck-li-counter;
+    padding-left: 0px;
+    position: relative;
+    z-index: 0;
+    margin-left: 10px;
+          color: #39464e;
+  }
+
+#actividad .content .cke_contents .bck-ol-12 li:before, 
+#actividad .content .texto_curso ol.bck-ol-12 li:before, 
+#actividad .popover-content ol.bck-ol-12 li:before, 
+#actividad .content .workspace ul li ol.bck-ol-12 li:before {
+  color: #29211A;
+    font-size: 2.2rem;
+    content: counter(bck-li-counter,lower-alpha) ".";
+    position: absolute;
+    text-align: right;
+    left: -20px;
+    font-family: inherit;
+    font-family: 'Proxima Nova Rg';
+    margin: 4px 0 0 -9px;
+    width: inherit;
+}
 
 /**/
 
