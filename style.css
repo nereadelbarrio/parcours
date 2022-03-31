@@ -2485,7 +2485,7 @@ background-image: url(images/icono_cajaxx.png);
 }
 
 .info-popover .popover-title:before, .popover-template .popover-title:before {
-  color: white;
+  color: #da203e;
 }
 
 .info-popover .popover-title, .popover-template .popover-title {
