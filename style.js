@@ -88,7 +88,11 @@
 				{ name: 'Icono Hablar', element: 'span', attributes: { 'class': 'icon icon-hablar' } },
 				{ name: 'Icono Libro', element: 'span', attributes: { 'class': 'icon icon-libro' } },
 				{ name: 'Icono Lupa', element: 'span', attributes: { 'class': 'icon icon-lupa' } },
-				{ name: 'Icono Lápiz', element: 'span', attributes: { 'class': 'icon icon-lapiz' } }
+				{ name: 'Icono Video', element: 'span', attributes: { 'class': 'icon icon-lapiz' } },
+				{ name: 'Icono Lápiz', element: 'span', attributes: { 'class': 'icon icon-lapiz' } },
+				{ name: 'Icono Web', element: 'span', attributes: { 'class': 'icon icon-lapiz' } },
+				{ name: 'Icono Dados', element: 'span', attributes: { 'class': 'icon icon-lapiz' } },
+				{ name: 'Icono Bocadillos', element: 'span', attributes: { 'class': 'icon icon-lapiz' } }
 
 			]
 		},
