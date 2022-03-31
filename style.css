@@ -2678,6 +2678,78 @@ background-image: url(images/icono_cajaxx.png);
   }
 
 
+    /*icono video*/
+  .icon-video:before {
+    background-image: url(images/icono_video.png);
+    content: "";
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-position: center center;
+    display: inline-block;
+    vertical-align: middle;
+    height: 35px;
+    width: 38px;
+    margin-right: 9px;
+  }
+
+
+      /*icono dados*/
+  .icon-dados:before {
+    background-image: url(images/icono_dados.png);
+    content: "";
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-position: center center;
+    display: inline-block;
+    vertical-align: middle;
+    height: 35px;
+    width: 38px;
+    margin-right: 9px;
+  }
+
+
+      /*icono bocadillo*/
+  .icon-bocadillo:before {
+    background-image: url(images/icono_bocadillo.png);
+    content: "";
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-position: center center;
+    display: inline-block;
+    vertical-align: middle;
+    height: 35px;
+    width: 38px;
+    margin-right: 9px;
+  }
+
+
+      /*icono web*/
+  .icon-web:before {
+    background-image: url(images/icono_web.png);
+    content: "";
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-position: center center;
+    display: inline-block;
+    vertical-align: middle;
+    height: 35px;
+    width: 38px;
+    margin-right: 9px;
+  }
+
+
   /**Iconos anterioresÂ¿?**/
   .item-container .icon:before {
     content: "";
