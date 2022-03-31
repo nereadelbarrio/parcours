@@ -792,7 +792,7 @@ a:focus {
 
 /*ÉNFASIS 2*/
 .bck-enfasis-2 {
-  font-size: 22px;
+  font-size: 24px;
     font-weight: bold;
     color: #da203e;
 }
@@ -986,7 +986,7 @@ padding: 5px;
    /*énfasis 26*/
   .bck-enfasis-26 {
     color: #879AA3;
-    font-size: 2.5rem;
+    font-size: 24px;
     font-weight: 700;
     font-family: 'Proxima Nova Rg';
   }
